@@ -1,0 +1,1373 @@
+2016-04-27 18:59:18 DEBUG SocketEndpoint:257 - Current jobs: 1
+2016-04-27 18:59:18 DEBUG InvocationThread:158 - [Invocation of ping] Request: [Message@18136839 from time 1461763815717] started
+2016-04-27 18:59:18 DEBUG SocketEndpoint:259 - Active jobs: 1
+2016-04-27 18:59:18 DEBUG InvocationThread:163 - Request received. Requested method: ping
+2016-04-27 18:59:18 DEBUG InvocationThread:168 - Trying to invoke method ping
+2016-04-27 18:59:18 DEBUG RequestHandler:403 - ping allowed? true
+2016-04-27 18:59:18 DEBUG RequestHandler:434 - waitForMethod(ping) returns!
+2016-04-27 18:59:18 DEBUG RequestHandler:300 - Trying to invoke method 7 with parameters: 
+2016-04-27 18:59:18 DEBUG RequestHandler:363 - Invoking ping()
+2016-04-27 18:59:18 DEBUG RequestHandler:365 - ping() invoked.
+2016-04-27 18:59:18 DEBUG RequestHandler:387 - Returning result.
+2016-04-27 18:59:18 DEBUG SocketEndpoint:261 - Completed jobs: 195
+2016-04-27 18:59:18 DEBUG InvocationThread:138 - InvocationThread scheduled for request [Message@18136839 from time 1461763815717]
+2016-04-27 18:59:18 DEBUG RequestHandler:206 - Waiting for request...
+2016-04-27 18:59:18 DEBUG InvocationThread:181 - Method invoked and result has been sent.
+2016-04-27 18:59:18 DEBUG InvocationThread:201 - [Invocation of ping] Request: [Message@18136839 from time 1461763815717] finished
+2016-04-27 18:59:18 DEBUG StabilizeTask:98 - Stabilize method has been invoked periodically
+2016-04-27 18:59:18 DEBUG SocketProxy:912 - makeSocketAvailable() called. Testing for socket availability
+2016-04-27 18:59:18 DEBUG SocketProxy:974 - makeSocketAvailable() finished. Socket Socket[addr=/172.31.76.134,port=4242,localport=54380]
+2016-04-27 18:59:18 DEBUG SocketProxy:474 - Creating request for method notify with parameters [de.uniba.wiai.lspi.chord.com.socket.RemoteNodeInfo@1636f8c]
+2016-04-27 18:59:18 DEBUG SocketProxy:482 - Request [Message@31222921 from time 1461763758392] created.
+2016-04-27 18:59:18 DEBUG SocketProxy:291 - Sending request 1461763758392-216-5
+2016-04-27 18:59:18 DEBUG SocketProxy:339 - Trying to wait for response with identifier 1461763758392-216-5 for method notify
+2016-04-27 18:59:18 DEBUG SocketProxy:344 - No of responses 0
+2016-04-27 18:59:18 DEBUG SocketProxy:368 - Waiting for response to arrive.
+2016-04-27 18:59:18 DEBUG SocketProxy:1067 - Response [Message@2514874 from time 1461763816245]received!
+2016-04-27 18:59:18 DEBUG SocketProxy:418 - No of waiting threads {1461763758392-216-5=Thread[MaintenanceTaskExecution-Thread-0,5,main]: Waiting? true}
+2016-04-27 18:59:18 DEBUG SocketProxy:421 - Response with id 1461763758392-216-5received.
+2016-04-27 18:59:18 DEBUG SocketProxy:428 - Waking up thread!
+2016-04-27 18:59:18 DEBUG SocketProxy:377 - Have been woken up from waiting for response.
+2016-04-27 18:59:18 DEBUG SocketProxy:383 - Response for request with identifier 1461763758392-216-5 for method notify received.
+2016-04-27 18:59:18 DEBUG Endpoint:378 - Endpoint for URL ocsocket://172.31.76.187/: [Endpoint for Node[type=NodeImpl, id=41 82 20 BA , url=ocsocket://172.31.76.187/] with URL ocsocket://172.31.76.187/
+2016-04-27 18:59:18 DEBUG Endpoint:378 - Endpoint for URL ocsocket://172.31.76.187/: [Endpoint for Node[type=NodeImpl, id=41 82 20 BA , url=ocsocket://172.31.76.187/] with URL ocsocket://172.31.76.187/
+2016-04-27 18:59:18 INFO  StabilizeTask:125 - Received response to notify request from successorC6 8A 39 0E 
+2016-04-27 18:59:18 DEBUG 41 82 20 BA :328 - Reference on myself was not added
+2016-04-27 18:59:18 DEBUG StabilizeTask:172 - Added new reference: Node[type=NodeImpl, id=41 82 20 BA , url=ocsocket://172.31.76.187/]
+2016-04-27 18:59:18 DEBUG 41 82 20 BA :328 - Reference on myself was not added
+2016-04-27 18:59:18 DEBUG StabilizeTask:172 - Added new reference: Node[type=NodeImpl, id=41 82 20 BA , url=ocsocket://172.31.76.187/]
+2016-04-27 18:59:18 INFO  StabilizeTask:176 - Invocation of notify on node C6 8A 39 0E  was successful
+2016-04-27 18:59:19 DEBUG 41 82 20 BA :105 - fixFingers tries to get finger for key 41 82 20 BA 
+2016-04-27 18:59:19 DEBUG 41 82 20 BA :1012 - The requested key lies between my own and my successor's node id; therefore return my successor.
+2016-04-27 18:59:19 DEBUG 41 82 20 BA :1021 - Returning my successor C6 8A 39 0E  of type class de.uniba.wiai.lspi.chord.com.socket.SocketProxy
+2016-04-27 18:59:19 DEBUG 41 82 20 BA :127 - Invocation of fix fingers was successful
+2016-04-27 18:59:24 DEBUG RequestHandler:212 - Received request [Message@21136490 from time 1461763822008]
+2016-04-27 18:59:24 DEBUG SocketEndpoint:253 - Scheduling invocation: [Invocation of notify] Request: [Message@21136490 from time 1461763822008]
+2016-04-27 18:59:24 DEBUG SocketEndpoint:257 - Current jobs: 1
+2016-04-27 18:59:24 DEBUG InvocationThread:158 - [Invocation of notify] Request: [Message@21136490 from time 1461763822008] started
+2016-04-27 18:59:24 DEBUG SocketEndpoint:259 - Active jobs: 1
+2016-04-27 18:59:24 DEBUG InvocationThread:163 - Request received. Requested method: notify
+2016-04-27 18:59:24 DEBUG InvocationThread:168 - Trying to invoke method notify
+2016-04-27 18:59:24 DEBUG SocketEndpoint:261 - Completed jobs: 196
+2016-04-27 18:59:24 DEBUG RequestHandler:403 - notify allowed? true
+2016-04-27 18:59:24 DEBUG InvocationThread:138 - InvocationThread scheduled for request [Message@21136490 from time 1461763822008]
+2016-04-27 18:59:24 DEBUG RequestHandler:206 - Waiting for request...
+2016-04-27 18:59:24 DEBUG RequestHandler:434 - waitForMethod(notify) returns!
+2016-04-27 18:59:24 DEBUG RequestHandler:300 - Trying to invoke method 5 with parameters: 
+2016-04-27 18:59:24 DEBUG RequestHandler:303 - de.uniba.wiai.lspi.chord.com.socket.RemoteNodeInfo@97c91d
+2016-04-27 18:59:24 DEBUG SocketProxy:204 - Known proxies [ocsocket://172.31.76.187/->ocsocket://172.31.76.134:4242/]
+2016-04-27 18:59:24 DEBUG SocketProxy:206 - Returning existing proxy for ocsocket://172.31.76.134:4242/
+2016-04-27 18:59:24 INFO  41 82 20 BA :265 - Added reference to finger table entries 0 to 159
+2016-04-27 18:59:24 DEBUG 41 82 20 BA :142 - Reference to new node Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/] is not added to successor list, because it is already contained.
+2016-04-27 18:59:24 DEBUG 41 82 20 BA :340 - Attempted to add reference C6 8A 39 0E  to finger table and successor list. Whether it fit or not depends on those data structures.
+2016-04-27 18:59:24 DEBUG RequestHandler:387 - Returning result.
+2016-04-27 18:59:24 DEBUG InvocationThread:181 - Method invoked and result has been sent.
+2016-04-27 18:59:24 DEBUG InvocationThread:201 - [Invocation of notify] Request: [Message@21136490 from time 1461763822008] finished
+2016-04-27 18:59:24 DEBUG CheckPredecessorTask:80 - Check predecessor method has been invoked.
+2016-04-27 18:59:24 DEBUG SocketProxy:912 - makeSocketAvailable() called. Testing for socket availability
+2016-04-27 18:59:24 DEBUG SocketProxy:974 - makeSocketAvailable() finished. Socket Socket[addr=/172.31.76.134,port=4242,localport=54380]
+2016-04-27 18:59:24 DEBUG SocketProxy:637 - Trying to ping remote node ocsocket://172.31.76.134:4242/
+2016-04-27 18:59:24 DEBUG SocketProxy:474 - Creating request for method ping with parameters []
+2016-04-27 18:59:24 DEBUG SocketProxy:482 - Request [Message@22698270 from time 1461763764595] created.
+2016-04-27 18:59:24 DEBUG SocketProxy:645 - Trying to send request [Message@22698270 from time 1461763764595]
+2016-04-27 18:59:24 DEBUG SocketProxy:291 - Sending request 1461763764595-217-7
+2016-04-27 18:59:24 DEBUG SocketProxy:653 - Waiting for response for request [Message@22698270 from time 1461763764595]
+2016-04-27 18:59:24 DEBUG SocketProxy:339 - Trying to wait for response with identifier 1461763764595-217-7 for method ping
+2016-04-27 18:59:24 DEBUG SocketProxy:344 - No of responses 0
+2016-04-27 18:59:24 DEBUG SocketProxy:368 - Waiting for response to arrive.
+2016-04-27 18:59:24 DEBUG SocketProxy:1067 - Response [Message@25380812 from time 1461763822439]received!
+2016-04-27 18:59:24 DEBUG SocketProxy:418 - No of waiting threads {1461763764595-217-7=Thread[MaintenanceTaskExecution-Thread-2,5,main]: Waiting? true}
+2016-04-27 18:59:24 DEBUG SocketProxy:421 - Response with id 1461763764595-217-7received.
+2016-04-27 18:59:24 DEBUG SocketProxy:428 - Waking up thread!
+2016-04-27 18:59:24 DEBUG SocketProxy:377 - Have been woken up from waiting for response.
+2016-04-27 18:59:24 DEBUG SocketProxy:383 - Response for request with identifier 1461763764595-217-7 for method ping received.
+2016-04-27 18:59:24 DEBUG SocketProxy:657 - Response [Message@25380812 from time 1461763822439] arrived.
+2016-04-27 18:59:24 DEBUG CheckPredecessorTask:98 - Predecessor reached!
+2016-04-27 18:59:24 INFO  CheckPredecessorTask:114 - Invocation of check predecessor on node C6 8A 39 0E  was successful
+2016-04-27 18:59:30 DEBUG RequestHandler:212 - Received request [Message@16837901 from time 1461763827871]
+2016-04-27 18:59:30 DEBUG SocketEndpoint:253 - Scheduling invocation: [Invocation of ping] Request: [Message@16837901 from time 1461763827871]
+2016-04-27 18:59:30 DEBUG SocketEndpoint:257 - Current jobs: 1
+2016-04-27 18:59:30 DEBUG InvocationThread:158 - [Invocation of ping] Request: [Message@16837901 from time 1461763827871] started
+2016-04-27 18:59:30 DEBUG SocketEndpoint:259 - Active jobs: 1
+2016-04-27 18:59:30 DEBUG InvocationThread:163 - Request received. Requested method: ping
+2016-04-27 18:59:30 DEBUG InvocationThread:168 - Trying to invoke method ping
+2016-04-27 18:59:30 DEBUG SocketEndpoint:261 - Completed jobs: 197
+2016-04-27 18:59:30 DEBUG RequestHandler:403 - ping allowed? true
+2016-04-27 18:59:30 DEBUG InvocationThread:138 - InvocationThread scheduled for request [Message@16837901 from time 1461763827871]
+2016-04-27 18:59:30 DEBUG RequestHandler:206 - Waiting for request...
+2016-04-27 18:59:30 DEBUG RequestHandler:434 - waitForMethod(ping) returns!
+2016-04-27 18:59:30 DEBUG RequestHandler:300 - Trying to invoke method 7 with parameters: 
+2016-04-27 18:59:30 DEBUG RequestHandler:363 - Invoking ping()
+2016-04-27 18:59:30 DEBUG RequestHandler:365 - ping() invoked.
+2016-04-27 18:59:30 DEBUG RequestHandler:387 - Returning result.
+2016-04-27 18:59:30 DEBUG InvocationThread:181 - Method invoked and result has been sent.
+2016-04-27 18:59:30 DEBUG InvocationThread:201 - [Invocation of ping] Request: [Message@16837901 from time 1461763827871] finished
+2016-04-27 18:59:30 DEBUG StabilizeTask:98 - Stabilize method has been invoked periodically
+2016-04-27 18:59:30 DEBUG SocketProxy:912 - makeSocketAvailable() called. Testing for socket availability
+2016-04-27 18:59:30 DEBUG SocketProxy:974 - makeSocketAvailable() finished. Socket Socket[addr=/172.31.76.134,port=4242,localport=54380]
+2016-04-27 18:59:30 DEBUG SocketProxy:474 - Creating request for method notify with parameters [de.uniba.wiai.lspi.chord.com.socket.RemoteNodeInfo@1a16d4]
+2016-04-27 18:59:30 DEBUG SocketProxy:482 - Request [Message@26501676 from time 1461763770507] created.
+2016-04-27 18:59:30 DEBUG SocketProxy:291 - Sending request 1461763770507-218-5
+2016-04-27 18:59:30 DEBUG SocketProxy:339 - Trying to wait for response with identifier 1461763770507-218-5 for method notify
+2016-04-27 18:59:30 DEBUG SocketProxy:344 - No of responses 0
+2016-04-27 18:59:30 DEBUG SocketProxy:368 - Waiting for response to arrive.
+2016-04-27 18:59:30 DEBUG SocketProxy:1067 - Response [Message@4421083 from time 1461763828347]received!
+2016-04-27 18:59:30 DEBUG SocketProxy:418 - No of waiting threads {1461763770507-218-5=Thread[MaintenanceTaskExecution-Thread-0,5,main]: Waiting? true}
+2016-04-27 18:59:30 DEBUG SocketProxy:421 - Response with id 1461763770507-218-5received.
+2016-04-27 18:59:30 DEBUG SocketProxy:428 - Waking up thread!
+2016-04-27 18:59:30 DEBUG SocketProxy:377 - Have been woken up from waiting for response.
+2016-04-27 18:59:30 DEBUG SocketProxy:383 - Response for request with identifier 1461763770507-218-5 for method notify received.
+2016-04-27 18:59:30 DEBUG Endpoint:378 - Endpoint for URL ocsocket://172.31.76.187/: [Endpoint for Node[type=NodeImpl, id=41 82 20 BA , url=ocsocket://172.31.76.187/] with URL ocsocket://172.31.76.187/
+2016-04-27 18:59:30 DEBUG Endpoint:378 - Endpoint for URL ocsocket://172.31.76.187/: [Endpoint for Node[type=NodeImpl, id=41 82 20 BA , url=ocsocket://172.31.76.187/] with URL ocsocket://172.31.76.187/
+2016-04-27 18:59:30 INFO  StabilizeTask:125 - Received response to notify request from successorC6 8A 39 0E 
+2016-04-27 18:59:30 DEBUG 41 82 20 BA :328 - Reference on myself was not added
+2016-04-27 18:59:30 DEBUG StabilizeTask:172 - Added new reference: Node[type=NodeImpl, id=41 82 20 BA , url=ocsocket://172.31.76.187/]
+2016-04-27 18:59:30 DEBUG 41 82 20 BA :328 - Reference on myself was not added
+2016-04-27 18:59:30 DEBUG StabilizeTask:172 - Added new reference: Node[type=NodeImpl, id=41 82 20 BA , url=ocsocket://172.31.76.187/]
+2016-04-27 18:59:30 INFO  StabilizeTask:176 - Invocation of notify on node C6 8A 39 0E  was successful
+2016-04-27 18:59:31 DEBUG 41 82 20 BA :105 - fixFingers tries to get finger for key 41 82 20 BA 
+2016-04-27 18:59:31 DEBUG 41 82 20 BA :1012 - The requested key lies between my own and my successor's node id; therefore return my successor.
+2016-04-27 18:59:31 DEBUG 41 82 20 BA :1021 - Returning my successor C6 8A 39 0E  of type class de.uniba.wiai.lspi.chord.com.socket.SocketProxy
+2016-04-27 18:59:31 DEBUG 41 82 20 BA :127 - Invocation of fix fingers was successful
+2016-04-27 18:59:36 DEBUG RequestHandler:212 - Received request [Message@6637903 from time 1461763834126]
+2016-04-27 18:59:36 DEBUG SocketEndpoint:253 - Scheduling invocation: [Invocation of notify] Request: [Message@6637903 from time 1461763834126]
+2016-04-27 18:59:36 DEBUG SocketEndpoint:257 - Current jobs: 1
+2016-04-27 18:59:36 DEBUG InvocationThread:158 - [Invocation of notify] Request: [Message@6637903 from time 1461763834126] started
+2016-04-27 18:59:36 DEBUG SocketEndpoint:259 - Active jobs: 1
+2016-04-27 18:59:36 DEBUG InvocationThread:163 - Request received. Requested method: notify
+2016-04-27 18:59:36 DEBUG InvocationThread:168 - Trying to invoke method notify
+2016-04-27 18:59:36 DEBUG SocketEndpoint:261 - Completed jobs: 198
+2016-04-27 18:59:36 DEBUG RequestHandler:403 - notify allowed? true
+2016-04-27 18:59:36 DEBUG InvocationThread:138 - InvocationThread scheduled for request [Message@6637903 from time 1461763834126]
+2016-04-27 18:59:36 DEBUG RequestHandler:206 - Waiting for request...
+2016-04-27 18:59:36 DEBUG RequestHandler:434 - waitForMethod(notify) returns!
+2016-04-27 18:59:36 DEBUG RequestHandler:300 - Trying to invoke method 5 with parameters: 
+2016-04-27 18:59:36 DEBUG RequestHandler:303 - de.uniba.wiai.lspi.chord.com.socket.RemoteNodeInfo@12c3dab
+2016-04-27 18:59:36 DEBUG SocketProxy:204 - Known proxies [ocsocket://172.31.76.187/->ocsocket://172.31.76.134:4242/]
+2016-04-27 18:59:36 DEBUG SocketProxy:206 - Returning existing proxy for ocsocket://172.31.76.134:4242/
+2016-04-27 18:59:36 INFO  41 82 20 BA :265 - Added reference to finger table entries 0 to 159
+2016-04-27 18:59:36 DEBUG 41 82 20 BA :142 - Reference to new node Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/] is not added to successor list, because it is already contained.
+2016-04-27 18:59:36 DEBUG 41 82 20 BA :340 - Attempted to add reference C6 8A 39 0E  to finger table and successor list. Whether it fit or not depends on those data structures.
+2016-04-27 18:59:36 DEBUG RequestHandler:387 - Returning result.
+2016-04-27 18:59:36 DEBUG InvocationThread:181 - Method invoked and result has been sent.
+2016-04-27 18:59:36 DEBUG InvocationThread:201 - [Invocation of notify] Request: [Message@6637903 from time 1461763834126] finished
+2016-04-27 18:59:36 DEBUG CheckPredecessorTask:80 - Check predecessor method has been invoked.
+2016-04-27 18:59:36 DEBUG SocketProxy:912 - makeSocketAvailable() called. Testing for socket availability
+2016-04-27 18:59:36 DEBUG SocketProxy:974 - makeSocketAvailable() finished. Socket Socket[addr=/172.31.76.134,port=4242,localport=54380]
+2016-04-27 18:59:36 DEBUG SocketProxy:637 - Trying to ping remote node ocsocket://172.31.76.134:4242/
+2016-04-27 18:59:36 DEBUG SocketProxy:474 - Creating request for method ping with parameters []
+2016-04-27 18:59:36 DEBUG SocketProxy:482 - Request [Message@32426028 from time 1461763776705] created.
+2016-04-27 18:59:36 DEBUG SocketProxy:645 - Trying to send request [Message@32426028 from time 1461763776705]
+2016-04-27 18:59:36 DEBUG SocketProxy:291 - Sending request 1461763776705-219-7
+2016-04-27 18:59:36 DEBUG SocketProxy:653 - Waiting for response for request [Message@32426028 from time 1461763776705]
+2016-04-27 18:59:36 DEBUG SocketProxy:339 - Trying to wait for response with identifier 1461763776705-219-7 for method ping
+2016-04-27 18:59:36 DEBUG SocketProxy:344 - No of responses 0
+2016-04-27 18:59:36 DEBUG SocketProxy:368 - Waiting for response to arrive.
+2016-04-27 18:59:36 DEBUG SocketProxy:1067 - Response [Message@28188290 from time 1461763834553]received!
+2016-04-27 18:59:36 DEBUG SocketProxy:418 - No of waiting threads {1461763776705-219-7=Thread[MaintenanceTaskExecution-Thread-2,5,main]: Waiting? true}
+2016-04-27 18:59:36 DEBUG SocketProxy:421 - Response with id 1461763776705-219-7received.
+2016-04-27 18:59:36 DEBUG SocketProxy:428 - Waking up thread!
+2016-04-27 18:59:36 DEBUG SocketProxy:377 - Have been woken up from waiting for response.
+2016-04-27 18:59:36 DEBUG SocketProxy:383 - Response for request with identifier 1461763776705-219-7 for method ping received.
+2016-04-27 18:59:36 DEBUG SocketProxy:657 - Response [Message@28188290 from time 1461763834553] arrived.
+2016-04-27 18:59:36 DEBUG CheckPredecessorTask:98 - Predecessor reached!
+2016-04-27 18:59:36 INFO  CheckPredecessorTask:114 - Invocation of check predecessor on node C6 8A 39 0E  was successful
+2016-04-27 18:59:42 DEBUG RequestHandler:212 - Received request [Message@21040229 from time 1461763839993]
+2016-04-27 18:59:42 DEBUG SocketEndpoint:253 - Scheduling invocation: [Invocation of ping] Request: [Message@21040229 from time 1461763839993]
+2016-04-27 18:59:42 DEBUG SocketEndpoint:257 - Current jobs: 1
+2016-04-27 18:59:42 DEBUG InvocationThread:158 - [Invocation of ping] Request: [Message@21040229 from time 1461763839993] started
+2016-04-27 18:59:42 DEBUG InvocationThread:163 - Request received. Requested method: ping
+2016-04-27 18:59:42 DEBUG InvocationThread:168 - Trying to invoke method ping
+2016-04-27 18:59:42 DEBUG RequestHandler:403 - ping allowed? true
+2016-04-27 18:59:42 DEBUG RequestHandler:434 - waitForMethod(ping) returns!
+2016-04-27 18:59:42 DEBUG RequestHandler:300 - Trying to invoke method 7 with parameters: 
+2016-04-27 18:59:42 DEBUG RequestHandler:363 - Invoking ping()
+2016-04-27 18:59:42 DEBUG RequestHandler:365 - ping() invoked.
+2016-04-27 18:59:42 DEBUG RequestHandler:387 - Returning result.
+2016-04-27 18:59:42 DEBUG SocketEndpoint:259 - Active jobs: 1
+2016-04-27 18:59:42 DEBUG SocketEndpoint:261 - Completed jobs: 199
+2016-04-27 18:59:42 DEBUG InvocationThread:181 - Method invoked and result has been sent.
+2016-04-27 18:59:42 DEBUG InvocationThread:138 - InvocationThread scheduled for request [Message@21040229 from time 1461763839993]
+2016-04-27 18:59:42 DEBUG RequestHandler:206 - Waiting for request...
+2016-04-27 18:59:42 DEBUG InvocationThread:201 - [Invocation of ping] Request: [Message@21040229 from time 1461763839993] finished
+2016-04-27 18:59:42 DEBUG StabilizeTask:98 - Stabilize method has been invoked periodically
+2016-04-27 18:59:42 DEBUG SocketProxy:912 - makeSocketAvailable() called. Testing for socket availability
+2016-04-27 18:59:42 DEBUG SocketProxy:974 - makeSocketAvailable() finished. Socket Socket[addr=/172.31.76.134,port=4242,localport=54380]
+2016-04-27 18:59:42 DEBUG SocketProxy:474 - Creating request for method notify with parameters [de.uniba.wiai.lspi.chord.com.socket.RemoteNodeInfo@1a52d95]
+2016-04-27 18:59:42 DEBUG SocketProxy:482 - Request [Message@15763353 from time 1461763782611] created.
+2016-04-27 18:59:42 DEBUG SocketProxy:291 - Sending request 1461763782611-220-5
+2016-04-27 18:59:42 DEBUG SocketProxy:339 - Trying to wait for response with identifier 1461763782611-220-5 for method notify
+2016-04-27 18:59:42 DEBUG SocketProxy:344 - No of responses 0
+2016-04-27 18:59:42 DEBUG SocketProxy:368 - Waiting for response to arrive.
+2016-04-27 18:59:42 DEBUG SocketProxy:1067 - Response [Message@1300888 from time 1461763840459]received!
+2016-04-27 18:59:42 DEBUG SocketProxy:418 - No of waiting threads {1461763782611-220-5=Thread[MaintenanceTaskExecution-Thread-0,5,main]: Waiting? true}
+2016-04-27 18:59:42 DEBUG SocketProxy:421 - Response with id 1461763782611-220-5received.
+2016-04-27 18:59:42 DEBUG SocketProxy:428 - Waking up thread!
+2016-04-27 18:59:42 DEBUG SocketProxy:377 - Have been woken up from waiting for response.
+2016-04-27 18:59:42 DEBUG SocketProxy:383 - Response for request with identifier 1461763782611-220-5 for method notify received.
+2016-04-27 18:59:42 DEBUG Endpoint:378 - Endpoint for URL ocsocket://172.31.76.187/: [Endpoint for Node[type=NodeImpl, id=41 82 20 BA , url=ocsocket://172.31.76.187/] with URL ocsocket://172.31.76.187/
+2016-04-27 18:59:42 DEBUG Endpoint:378 - Endpoint for URL ocsocket://172.31.76.187/: [Endpoint for Node[type=NodeImpl, id=41 82 20 BA , url=ocsocket://172.31.76.187/] with URL ocsocket://172.31.76.187/
+2016-04-27 18:59:42 INFO  StabilizeTask:125 - Received response to notify request from successorC6 8A 39 0E 
+2016-04-27 18:59:42 DEBUG 41 82 20 BA :328 - Reference on myself was not added
+2016-04-27 18:59:42 DEBUG StabilizeTask:172 - Added new reference: Node[type=NodeImpl, id=41 82 20 BA , url=ocsocket://172.31.76.187/]
+2016-04-27 18:59:42 DEBUG 41 82 20 BA :328 - Reference on myself was not added
+2016-04-27 18:59:42 DEBUG StabilizeTask:172 - Added new reference: Node[type=NodeImpl, id=41 82 20 BA , url=ocsocket://172.31.76.187/]
+2016-04-27 18:59:42 INFO  StabilizeTask:176 - Invocation of notify on node C6 8A 39 0E  was successful
+2016-04-27 18:59:43 DEBUG 41 82 20 BA :105 - fixFingers tries to get finger for key 41 82 20 BA 
+2016-04-27 18:59:43 DEBUG 41 82 20 BA :1012 - The requested key lies between my own and my successor's node id; therefore return my successor.
+2016-04-27 18:59:43 DEBUG 41 82 20 BA :1021 - Returning my successor C6 8A 39 0E  of type class de.uniba.wiai.lspi.chord.com.socket.SocketProxy
+2016-04-27 18:59:43 DEBUG 41 82 20 BA :127 - Invocation of fix fingers was successful
+2016-04-27 18:59:48 DEBUG RequestHandler:212 - Received request [Message@19216538 from time 1461763846246]
+2016-04-27 18:59:48 DEBUG SocketEndpoint:253 - Scheduling invocation: [Invocation of notify] Request: [Message@19216538 from time 1461763846246]
+2016-04-27 18:59:48 DEBUG SocketEndpoint:257 - Current jobs: 1
+2016-04-27 18:59:48 DEBUG InvocationThread:158 - [Invocation of notify] Request: [Message@19216538 from time 1461763846246] started
+2016-04-27 18:59:48 DEBUG SocketEndpoint:259 - Active jobs: 1
+2016-04-27 18:59:48 DEBUG InvocationThread:163 - Request received. Requested method: notify
+2016-04-27 18:59:48 DEBUG InvocationThread:168 - Trying to invoke method notify
+2016-04-27 18:59:48 DEBUG RequestHandler:403 - notify allowed? true
+2016-04-27 18:59:48 DEBUG RequestHandler:434 - waitForMethod(notify) returns!
+2016-04-27 18:59:48 DEBUG RequestHandler:300 - Trying to invoke method 5 with parameters: 
+2016-04-27 18:59:48 DEBUG RequestHandler:303 - de.uniba.wiai.lspi.chord.com.socket.RemoteNodeInfo@432113
+2016-04-27 18:59:48 DEBUG SocketProxy:204 - Known proxies [ocsocket://172.31.76.187/->ocsocket://172.31.76.134:4242/]
+2016-04-27 18:59:48 DEBUG SocketProxy:206 - Returning existing proxy for ocsocket://172.31.76.134:4242/
+2016-04-27 18:59:48 DEBUG SocketEndpoint:261 - Completed jobs: 200
+2016-04-27 18:59:48 DEBUG InvocationThread:138 - InvocationThread scheduled for request [Message@19216538 from time 1461763846246]
+2016-04-27 18:59:48 DEBUG RequestHandler:206 - Waiting for request...
+2016-04-27 18:59:48 INFO  41 82 20 BA :265 - Added reference to finger table entries 0 to 159
+2016-04-27 18:59:48 DEBUG 41 82 20 BA :142 - Reference to new node Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/] is not added to successor list, because it is already contained.
+2016-04-27 18:59:48 DEBUG 41 82 20 BA :340 - Attempted to add reference C6 8A 39 0E  to finger table and successor list. Whether it fit or not depends on those data structures.
+2016-04-27 18:59:48 DEBUG RequestHandler:387 - Returning result.
+2016-04-27 18:59:48 DEBUG InvocationThread:181 - Method invoked and result has been sent.
+2016-04-27 18:59:48 DEBUG InvocationThread:201 - [Invocation of notify] Request: [Message@19216538 from time 1461763846246] finished
+2016-04-27 18:59:48 DEBUG CheckPredecessorTask:80 - Check predecessor method has been invoked.
+2016-04-27 18:59:48 DEBUG SocketProxy:912 - makeSocketAvailable() called. Testing for socket availability
+2016-04-27 18:59:48 DEBUG SocketProxy:974 - makeSocketAvailable() finished. Socket Socket[addr=/172.31.76.134,port=4242,localport=54380]
+2016-04-27 18:59:48 DEBUG SocketProxy:637 - Trying to ping remote node ocsocket://172.31.76.134:4242/
+2016-04-27 18:59:48 DEBUG SocketProxy:474 - Creating request for method ping with parameters []
+2016-04-27 18:59:48 DEBUG SocketProxy:482 - Request [Message@11170559 from time 1461763788815] created.
+2016-04-27 18:59:48 DEBUG SocketProxy:645 - Trying to send request [Message@11170559 from time 1461763788815]
+2016-04-27 18:59:48 DEBUG SocketProxy:291 - Sending request 1461763788815-221-7
+2016-04-27 18:59:48 DEBUG SocketProxy:653 - Waiting for response for request [Message@11170559 from time 1461763788815]
+2016-04-27 18:59:48 DEBUG SocketProxy:339 - Trying to wait for response with identifier 1461763788815-221-7 for method ping
+2016-04-27 18:59:48 DEBUG SocketProxy:344 - No of responses 0
+2016-04-27 18:59:48 DEBUG SocketProxy:368 - Waiting for response to arrive.
+2016-04-27 18:59:48 DEBUG SocketProxy:1067 - Response [Message@15070743 from time 1461763846655]received!
+2016-04-27 18:59:48 DEBUG SocketProxy:418 - No of waiting threads {1461763788815-221-7=Thread[MaintenanceTaskExecution-Thread-2,5,main]: Waiting? true}
+2016-04-27 18:59:48 DEBUG SocketProxy:421 - Response with id 1461763788815-221-7received.
+2016-04-27 18:59:48 DEBUG SocketProxy:428 - Waking up thread!
+2016-04-27 18:59:48 DEBUG SocketProxy:377 - Have been woken up from waiting for response.
+2016-04-27 18:59:48 DEBUG SocketProxy:383 - Response for request with identifier 1461763788815-221-7 for method ping received.
+2016-04-27 18:59:48 DEBUG SocketProxy:657 - Response [Message@15070743 from time 1461763846655] arrived.
+2016-04-27 18:59:48 DEBUG CheckPredecessorTask:98 - Predecessor reached!
+2016-04-27 18:59:48 INFO  CheckPredecessorTask:114 - Invocation of check predecessor on node C6 8A 39 0E  was successful
+2016-04-27 18:59:54 DEBUG StabilizeTask:98 - Stabilize method has been invoked periodically
+2016-04-27 18:59:54 DEBUG SocketProxy:912 - makeSocketAvailable() called. Testing for socket availability
+2016-04-27 18:59:54 DEBUG SocketProxy:974 - makeSocketAvailable() finished. Socket Socket[addr=/172.31.76.134,port=4242,localport=54380]
+2016-04-27 18:59:54 DEBUG SocketProxy:474 - Creating request for method notify with parameters [de.uniba.wiai.lspi.chord.com.socket.RemoteNodeInfo@1a8884f]
+2016-04-27 18:59:54 DEBUG SocketProxy:482 - Request [Message@703298 from time 1461763794726] created.
+2016-04-27 18:59:54 DEBUG SocketProxy:291 - Sending request 1461763794726-222-5
+2016-04-27 18:59:54 DEBUG SocketProxy:339 - Trying to wait for response with identifier 1461763794726-222-5 for method notify
+2016-04-27 18:59:54 DEBUG SocketProxy:344 - No of responses 0
+2016-04-27 18:59:54 DEBUG SocketProxy:368 - Waiting for response to arrive.
+2016-04-27 18:59:55 DEBUG 41 82 20 BA :105 - fixFingers tries to get finger for key 41 82 20 BA 
+2016-04-27 18:59:55 DEBUG 41 82 20 BA :1012 - The requested key lies between my own and my successor's node id; therefore return my successor.
+2016-04-27 18:59:55 DEBUG 41 82 20 BA :1021 - Returning my successor C6 8A 39 0E  of type class de.uniba.wiai.lspi.chord.com.socket.SocketProxy
+2016-04-27 18:59:55 DEBUG 41 82 20 BA :127 - Invocation of fix fingers was successful
+2016-04-27 19:00:00 DEBUG CheckPredecessorTask:80 - Check predecessor method has been invoked.
+2016-04-27 19:00:00 DEBUG SocketProxy:912 - makeSocketAvailable() called. Testing for socket availability
+2016-04-27 19:00:00 DEBUG SocketProxy:974 - makeSocketAvailable() finished. Socket Socket[addr=/172.31.76.134,port=4242,localport=54380]
+2016-04-27 19:00:00 DEBUG SocketProxy:637 - Trying to ping remote node ocsocket://172.31.76.134:4242/
+2016-04-27 19:00:00 DEBUG SocketProxy:474 - Creating request for method ping with parameters []
+2016-04-27 19:00:00 DEBUG SocketProxy:482 - Request [Message@31885294 from time 1461763800921] created.
+2016-04-27 19:00:00 DEBUG SocketProxy:645 - Trying to send request [Message@31885294 from time 1461763800921]
+2016-04-27 19:00:00 DEBUG SocketProxy:291 - Sending request 1461763800921-223-7
+2016-04-27 19:00:00 DEBUG SocketProxy:653 - Waiting for response for request [Message@31885294 from time 1461763800921]
+2016-04-27 19:00:00 DEBUG SocketProxy:339 - Trying to wait for response with identifier 1461763800921-223-7 for method ping
+2016-04-27 19:00:00 DEBUG SocketProxy:344 - No of responses 0
+2016-04-27 19:00:00 DEBUG SocketProxy:368 - Waiting for response to arrive.
+2016-04-27 19:00:07 DEBUG 41 82 20 BA :105 - fixFingers tries to get finger for key 41 82 20 BA 
+2016-04-27 19:00:07 DEBUG 41 82 20 BA :1012 - The requested key lies between my own and my successor's node id; therefore return my successor.
+2016-04-27 19:00:07 DEBUG 41 82 20 BA :1021 - Returning my successor C6 8A 39 0E  of type class de.uniba.wiai.lspi.chord.com.socket.SocketProxy
+2016-04-27 19:00:07 DEBUG 41 82 20 BA :127 - Invocation of fix fingers was successful
+2016-04-27 19:00:16 WARN  SocketProxy:1078 - Could not read response from stream!
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.io.ObjectInputStream$PeekInputStream.peek(Unknown Source)
+	at java.io.ObjectInputStream$BlockDataInputStream.peek(Unknown Source)
+	at java.io.ObjectInputStream$BlockDataInputStream.peekByte(Unknown Source)
+	at java.io.ObjectInputStream.readObject0(Unknown Source)
+	at java.io.ObjectInputStream.readObject(Unknown Source)
+	at de.uniba.wiai.lspi.chord.com.socket.SocketProxy.run(SocketProxy.java:1066)
+	at java.lang.Thread.run(Unknown Source)
+2016-04-27 19:00:16 INFO  SocketProxy:449 - Connection broken down!
+2016-04-27 19:00:16 DEBUG SocketProxy:453 - Interrupting waiting thread Thread[MaintenanceTaskExecution-Thread-0,5,main]: Waiting? true
+2016-04-27 19:00:16 DEBUG SocketProxy:453 - Interrupting waiting thread Thread[MaintenanceTaskExecution-Thread-2,5,main]: Waiting? true
+2016-04-27 19:00:16 DEBUG SocketProxy:377 - Have been woken up from waiting for response.
+2016-04-27 19:00:16 DEBUG SocketProxy:383 - Response for request with identifier 1461763800921-223-7 for method ping received.
+2016-04-27 19:00:16 DEBUG SocketProxy:389 - No response received.
+2016-04-27 19:00:16 INFO  SocketProxy:392 - Connection to remote host lost.
+2016-04-27 19:00:16 DEBUG CheckPredecessorTask:103 - Checking predecessor was NOT successful due to a communication failure! Removing predecessor reference.
+de.uniba.wiai.lspi.chord.com.CommunicationException: Connection to remote host  is broken down. 
+	at de.uniba.wiai.lspi.chord.com.socket.SocketProxy.waitForResponse(SocketProxy.java:393)
+	at de.uniba.wiai.lspi.chord.com.socket.SocketProxy.ping(SocketProxy.java:655)
+	at de.uniba.wiai.lspi.chord.service.impl.CheckPredecessorTask.run(CheckPredecessorTask.java:94)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.runAndReset(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2016-04-27 19:00:16 DEBUG SocketProxy:377 - Have been woken up from waiting for response.
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=0, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG SocketProxy:383 - Response for request with identifier 1461763794726-222-5 for method notify received.
+2016-04-27 19:00:16 DEBUG SocketProxy:389 - No response received.
+2016-04-27 19:00:16 INFO  SocketProxy:392 - Connection to remote host lost.
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=1, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG StabilizeTask:131 - Invocation of notify on node C6 8A 39 0E  was not successful due to a communication failure! Successor has failed during stabilization! Removing successor!
+de.uniba.wiai.lspi.chord.com.CommunicationException: Connection to remote host  is broken down. 
+	at de.uniba.wiai.lspi.chord.com.socket.SocketProxy.waitForResponse(SocketProxy.java:393)
+	at de.uniba.wiai.lspi.chord.com.socket.SocketProxy.notify(SocketProxy.java:602)
+	at de.uniba.wiai.lspi.chord.service.impl.StabilizeTask.run(StabilizeTask.java:122)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.runAndReset(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=2, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=3, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=4, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=5, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=6, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=7, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=8, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=9, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=10, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=11, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=12, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=13, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=14, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=15, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=16, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=17, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=18, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=19, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=20, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=21, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=22, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=23, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=24, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=25, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=26, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=27, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=28, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=29, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=30, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=31, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=32, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=33, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=34, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=35, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=36, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=37, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=38, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=39, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=40, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=41, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=42, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=43, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=44, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=45, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=46, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=47, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=48, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=49, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=50, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=51, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=52, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=53, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=54, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=55, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=56, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=57, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=58, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=59, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=60, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=61, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=62, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=63, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=64, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=65, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=66, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=67, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=68, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=69, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=70, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=71, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=72, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=73, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=74, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=75, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=76, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=77, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=78, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=79, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=80, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=81, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=82, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=83, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=84, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=85, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=86, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=87, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=88, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=89, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=90, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=91, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=92, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=93, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=94, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=95, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=96, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=97, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=98, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=99, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=100, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=101, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=102, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=103, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=104, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=105, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=106, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=107, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=108, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=109, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=110, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=111, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=112, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=113, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=114, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=115, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=116, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=117, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=118, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=119, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=120, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=121, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=122, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=123, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=124, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=125, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=126, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=127, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=128, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=129, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=130, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=131, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=132, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=133, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=134, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=135, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=136, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=137, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=138, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=139, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=140, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=141, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=142, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=143, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=144, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=145, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=146, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=147, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=148, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=149, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=150, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=151, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=152, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=153, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=154, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=155, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=156, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=157, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=158, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :193 - Entry set to null: index=159, overwritten node=Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :431 - Removed reference from finger table entries 0 to 159
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :407 - Disconnecting unused reference on node Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]
+2016-04-27 19:00:16 INFO  SocketProxy:992 - Destroying connection from ocsocket://172.31.76.187/ to ocsocket://172.31.76.134:4242/
+2016-04-27 19:00:16 DEBUG SocketProxy:1012 - Sending shutdown notification to endpoint.
+2016-04-27 19:00:16 DEBUG SocketProxy:474 - Creating request for method shutdown with parameters []
+2016-04-27 19:00:16 DEBUG SocketProxy:482 - Request [Message@19133727 from time 1461763816093] created.
+2016-04-27 19:00:16 DEBUG SocketProxy:1015 - Notification send.
+2016-04-27 19:00:16 DEBUG SocketProxy:1022 - Connection from Node[url=ocsocket://172.31.76.187/, socket=Socket[addr=/172.31.76.134,port=4242,localport=54380]] to Node[id=C6 8A 39 0E , url=ocsocket://172.31.76.134:4242/]: Exception during closing of output stream java.io.ObjectOutputStream@5ea4e1
+java.net.SocketException: Connection reset by peer: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(Unknown Source)
+	at java.net.SocketOutputStream.write(Unknown Source)
+	at java.io.ObjectOutputStream$BlockDataOutputStream.drain(Unknown Source)
+	at java.io.ObjectOutputStream$BlockDataOutputStream.setBlockDataMode(Unknown Source)
+	at java.io.ObjectOutputStream.writeNonProxyDesc(Unknown Source)
+	at java.io.ObjectOutputStream.writeClassDesc(Unknown Source)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(Unknown Source)
+	at java.io.ObjectOutputStream.writeObject0(Unknown Source)
+	at java.io.ObjectOutputStream.writeFatalException(Unknown Source)
+	at java.io.ObjectOutputStream.writeObject(Unknown Source)
+	at de.uniba.wiai.lspi.chord.com.socket.SocketProxy.disconnect(SocketProxy.java:1016)
+	at de.uniba.wiai.lspi.chord.service.impl.References.disconnectIfUnreferenced(References.java:409)
+	at de.uniba.wiai.lspi.chord.service.impl.References.removeReference(References.java:373)
+	at de.uniba.wiai.lspi.chord.service.impl.CheckPredecessorTask.run(CheckPredecessorTask.java:109)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.runAndReset(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2016-04-27 19:00:16 DEBUG SocketProxy:1030 - InputStream java.io.ObjectInputStream@d7be35 closed.
+2016-04-27 19:00:16 INFO  SocketProxy:1040 - Closing socket Socket[addr=/172.31.76.134,port=4242,localport=54380].
+2016-04-27 19:00:16 INFO  SocketProxy:449 - Connection broken down!
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :377 - Attempted to remove reference Unconnected SocketProxy from ocsocket://172.31.76.187/ to ocsocket://172.31.76.134:4242/ from all data structures including predecessor reference.
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :423 - removeReference did not remove the given reference, because it did not exist in finger table anywhere!
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :407 - Disconnecting unused reference on node Unconnected SocketProxy from ocsocket://172.31.76.187/ to ocsocket://172.31.76.134:4242/
+2016-04-27 19:00:16 INFO  SocketProxy:992 - Destroying connection from ocsocket://172.31.76.187/ to ocsocket://172.31.76.134:4242/
+2016-04-27 19:00:16 DEBUG SocketProxy:1012 - Sending shutdown notification to endpoint.
+2016-04-27 19:00:16 DEBUG SocketProxy:474 - Creating request for method shutdown with parameters []
+2016-04-27 19:00:16 DEBUG SocketProxy:482 - Request [Message@13834350 from time 1461763816109] created.
+2016-04-27 19:00:16 DEBUG SocketProxy:1015 - Notification send.
+2016-04-27 19:00:16 DEBUG SocketProxy:1022 - Unconnected SocketProxy from ocsocket://172.31.76.187/ to ocsocket://172.31.76.134:4242/: Exception during closing of output stream java.io.ObjectOutputStream@5ea4e1
+java.net.SocketException: Socket closed
+	at java.net.SocketOutputStream.socketWrite(Unknown Source)
+	at java.net.SocketOutputStream.write(Unknown Source)
+	at java.io.ObjectOutputStream$BlockDataOutputStream.drain(Unknown Source)
+	at java.io.ObjectOutputStream$BlockDataOutputStream.setBlockDataMode(Unknown Source)
+	at java.io.ObjectOutputStream.writeNonProxyDesc(Unknown Source)
+	at java.io.ObjectOutputStream.writeClassDesc(Unknown Source)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(Unknown Source)
+	at java.io.ObjectOutputStream.writeObject0(Unknown Source)
+	at java.io.ObjectOutputStream.writeFatalException(Unknown Source)
+	at java.io.ObjectOutputStream.writeObject(Unknown Source)
+	at de.uniba.wiai.lspi.chord.com.socket.SocketProxy.disconnect(SocketProxy.java:1016)
+	at de.uniba.wiai.lspi.chord.service.impl.References.disconnectIfUnreferenced(References.java:409)
+	at de.uniba.wiai.lspi.chord.service.impl.References.removeReference(References.java:373)
+	at de.uniba.wiai.lspi.chord.service.impl.StabilizeTask.run(StabilizeTask.java:139)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.runAndReset(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2016-04-27 19:00:16 INFO  SocketProxy:449 - Connection broken down!
+2016-04-27 19:00:16 DEBUG 41 82 20 BA :377 - Attempted to remove reference Unconnected SocketProxy from ocsocket://172.31.76.187/ to ocsocket://172.31.76.134:4242/ from all data structures including predecessor reference.
+2016-04-27 19:00:19 DEBUG 41 82 20 BA :105 - fixFingers tries to get finger for key 41 82 20 BA 
+2016-04-27 19:00:19 INFO  41 82 20 BA :1000 - I appear to be the only node in the network, so I am my own successor; return reference on me: 41 82 20 BA 
+2016-04-27 19:00:19 INFO  41 82 20 BA :120 - Adding new reference 41 82 20 BA 
+2016-04-27 19:00:19 DEBUG 41 82 20 BA :328 - Reference on myself was not added
+2016-04-27 19:00:19 DEBUG 41 82 20 BA :127 - Invocation of fix fingers was successful
+2016-04-27 19:00:28 DEBUG CheckPredecessorTask:80 - Check predecessor method has been invoked.
+2016-04-27 19:00:28 DEBUG StabilizeTask:98 - Stabilize method has been invoked periodically
+2016-04-27 19:00:28 INFO  CheckPredecessorTask:88 - Nothing to check, as predecessor is null
+2016-04-27 19:00:28 INFO  StabilizeTask:108 - Nothing to stabilize, as successor is null
+2016-04-27 19:00:31 DEBUG 41 82 20 BA :105 - fixFingers tries to get finger for key 41 82 20 BA 
+2016-04-27 19:00:31 INFO  41 82 20 BA :1000 - I appear to be the only node in the network, so I am my own successor; return reference on me: 41 82 20 BA 
+2016-04-27 19:00:31 INFO  41 82 20 BA :120 - Adding new reference 41 82 20 BA 
+2016-04-27 19:00:31 DEBUG 41 82 20 BA :328 - Reference on myself was not added
+2016-04-27 19:00:31 DEBUG 41 82 20 BA :127 - Invocation of fix fingers was successful
+2016-04-27 19:00:40 DEBUG CheckPredecessorTask:80 - Check predecessor method has been invoked.
+2016-04-27 19:00:40 DEBUG StabilizeTask:98 - Stabilize method has been invoked periodically
+2016-04-27 19:00:40 INFO  CheckPredecessorTask:88 - Nothing to check, as predecessor is null
+2016-04-27 19:00:40 INFO  StabilizeTask:108 - Nothing to stabilize, as successor is null
+2016-04-27 19:00:43 DEBUG 41 82 20 BA :105 - fixFingers tries to get finger for key 41 82 20 BA 
+2016-04-27 19:00:43 INFO  41 82 20 BA :1000 - I appear to be the only node in the network, so I am my own successor; return reference on me: 41 82 20 BA 
+2016-04-27 19:00:43 INFO  41 82 20 BA :120 - Adding new reference 41 82 20 BA 
+2016-04-27 19:00:43 DEBUG 41 82 20 BA :328 - Reference on myself was not added
+2016-04-27 19:00:43 DEBUG 41 82 20 BA :127 - Invocation of fix fingers was successful
+2016-04-27 19:00:52 DEBUG CheckPredecessorTask:80 - Check predecessor method has been invoked.
+2016-04-27 19:00:52 DEBUG StabilizeTask:98 - Stabilize method has been invoked periodically
+2016-04-27 19:00:52 INFO  CheckPredecessorTask:88 - Nothing to check, as predecessor is null
+2016-04-27 19:00:52 INFO  StabilizeTask:108 - Nothing to stabilize, as successor is null
+2016-04-27 19:00:55 DEBUG 41 82 20 BA :105 - fixFingers tries to get finger for key 41 C2 20 BA 
+2016-04-27 19:00:55 INFO  41 82 20 BA :1000 - I appear to be the only node in the network, so I am my own successor; return reference on me: 41 82 20 BA 
+2016-04-27 19:00:55 INFO  41 82 20 BA :120 - Adding new reference 41 82 20 BA 
+2016-04-27 19:00:55 DEBUG 41 82 20 BA :328 - Reference on myself was not added
+2016-04-27 19:00:55 DEBUG 41 82 20 BA :127 - Invocation of fix fingers was successful
+2016-04-27 19:01:04 DEBUG CheckPredecessorTask:80 - Check predecessor method has been invoked.
+2016-04-27 19:01:04 DEBUG StabilizeTask:98 - Stabilize method has been invoked periodically
+2016-04-27 19:01:04 INFO  CheckPredecessorTask:88 - Nothing to check, as predecessor is null
+2016-04-27 19:01:04 INFO  StabilizeTask:108 - Nothing to stabilize, as successor is null
+2016-04-27 19:01:07 DEBUG 41 82 20 BA :105 - fixFingers tries to get finger for key 41 82 20 BA 
+2016-04-27 19:01:07 INFO  41 82 20 BA :1000 - I appear to be the only node in the network, so I am my own successor; return reference on me: 41 82 20 BA 
+2016-04-27 19:01:07 INFO  41 82 20 BA :120 - Adding new reference 41 82 20 BA 
+2016-04-27 19:01:07 DEBUG 41 82 20 BA :328 - Reference on myself was not added
+2016-04-27 19:01:07 DEBUG 41 82 20 BA :127 - Invocation of fix fingers was successful
+2016-04-27 19:01:16 DEBUG CheckPredecessorTask:80 - Check predecessor method has been invoked.
+2016-04-27 19:01:16 DEBUG StabilizeTask:98 - Stabilize method has been invoked periodically
+2016-04-27 19:01:16 INFO  CheckPredecessorTask:88 - Nothing to check, as predecessor is null
+2016-04-27 19:01:16 INFO  StabilizeTask:108 - Nothing to stabilize, as successor is null
+2016-04-27 19:01:19 DEBUG 41 82 20 BA :105 - fixFingers tries to get finger for key 41 82 20 BA 
+2016-04-27 19:01:19 INFO  41 82 20 BA :1000 - I appear to be the only node in the network, so I am my own successor; return reference on me: 41 82 20 BA 
+2016-04-27 19:01:19 INFO  41 82 20 BA :120 - Adding new reference 41 82 20 BA 
+2016-04-27 19:01:19 DEBUG 41 82 20 BA :328 - Reference on myself was not added
+2016-04-27 19:01:19 DEBUG 41 82 20 BA :127 - Invocation of fix fingers was successful
+2016-04-27 19:01:28 DEBUG CheckPredecessorTask:80 - Check predecessor method has been invoked.
+2016-04-27 19:01:28 DEBUG StabilizeTask:98 - Stabilize method has been invoked periodically
+2016-04-27 19:01:28 INFO  CheckPredecessorTask:88 - Nothing to check, as predecessor is null
+2016-04-27 19:01:28 INFO  StabilizeTask:108 - Nothing to stabilize, as successor is null
+2016-04-27 19:01:31 DEBUG 41 82 20 BA :105 - fixFingers tries to get finger for key 41 82 20 BA 
+2016-04-27 19:01:31 INFO  41 82 20 BA :1000 - I appear to be the only node in the network, so I am my own successor; return reference on me: 41 82 20 BA 
+2016-04-27 19:01:31 INFO  41 82 20 BA :120 - Adding new reference 41 82 20 BA 
+2016-04-27 19:01:31 DEBUG 41 82 20 BA :328 - Reference on myself was not added
+2016-04-27 19:01:31 DEBUG 41 82 20 BA :127 - Invocation of fix fingers was successful
+2016-04-27 19:01:40 DEBUG CheckPredecessorTask:80 - Check predecessor method has been invoked.
+2016-04-27 19:01:40 DEBUG StabilizeTask:98 - Stabilize method has been invoked periodically
+2016-04-27 19:01:40 INFO  CheckPredecessorTask:88 - Nothing to check, as predecessor is null
+2016-04-27 19:01:40 INFO  StabilizeTask:108 - Nothing to stabilize, as successor is null
+2016-04-27 19:01:43 DEBUG 41 82 20 BA :105 - fixFingers tries to get finger for key 41 82 20 BA 
+2016-04-27 19:01:43 INFO  41 82 20 BA :1000 - I appear to be the only node in the network, so I am my own successor; return reference on me: 41 82 20 BA 
+2016-04-27 19:01:43 INFO  41 82 20 BA :120 - Adding new reference 41 82 20 BA 
+2016-04-27 19:01:43 DEBUG 41 82 20 BA :328 - Reference on myself was not added
+2016-04-27 19:01:43 DEBUG 41 82 20 BA :127 - Invocation of fix fingers was successful
+2016-04-27 19:01:52 DEBUG CheckPredecessorTask:80 - Check predecessor method has been invoked.
+2016-04-27 19:01:52 DEBUG StabilizeTask:98 - Stabilize method has been invoked periodically
+2016-04-27 19:01:52 INFO  CheckPredecessorTask:88 - Nothing to check, as predecessor is null
+2016-04-27 19:01:52 INFO  StabilizeTask:108 - Nothing to stabilize, as successor is null
+2016-04-27 19:01:55 DEBUG 41 82 20 BA :105 - fixFingers tries to get finger for key 41 82 20 BA 
+2016-04-27 19:01:55 INFO  41 82 20 BA :1000 - I appear to be the only node in the network, so I am my own successor; return reference on me: 41 82 20 BA 
+2016-04-27 19:01:55 INFO  41 82 20 BA :120 - Adding new reference 41 82 20 BA 
+2016-04-27 19:01:55 DEBUG 41 82 20 BA :328 - Reference on myself was not added
+2016-04-27 19:01:55 DEBUG 41 82 20 BA :127 - Invocation of fix fingers was successful
+2016-04-27 19:02:04 DEBUG CheckPredecessorTask:80 - Check predecessor method has been invoked.
+2016-04-27 19:02:04 DEBUG StabilizeTask:98 - Stabilize method has been invoked periodically
+2016-04-27 19:02:04 INFO  CheckPredecessorTask:88 - Nothing to check, as predecessor is null
+2016-04-27 19:02:04 INFO  StabilizeTask:108 - Nothing to stabilize, as successor is null
+2016-04-27 19:02:07 DEBUG 41 82 20 BA :105 - fixFingers tries to get finger for key 41 82 20 BA 
+2016-04-27 19:02:07 INFO  41 82 20 BA :1000 - I appear to be the only node in the network, so I am my own successor; return reference on me: 41 82 20 BA 
+2016-04-27 19:02:07 INFO  41 82 20 BA :120 - Adding new reference 41 82 20 BA 
+2016-04-27 19:02:07 DEBUG 41 82 20 BA :328 - Reference on myself was not added
+2016-04-27 19:02:07 DEBUG 41 82 20 BA :127 - Invocation of fix fingers was successful
+2016-04-27 19:02:16 DEBUG CheckPredecessorTask:80 - Check predecessor method has been invoked.
+2016-04-27 19:02:16 INFO  CheckPredecessorTask:88 - Nothing to check, as predecessor is null
+2016-04-27 19:02:16 DEBUG StabilizeTask:98 - Stabilize method has been invoked periodically
+2016-04-27 19:02:16 INFO  StabilizeTask:108 - Nothing to stabilize, as successor is null
+2016-04-27 19:02:19 DEBUG 41 82 20 BA :105 - fixFingers tries to get finger for key 41 82 20 BA 
+2016-04-27 19:02:19 INFO  41 82 20 BA :1000 - I appear to be the only node in the network, so I am my own successor; return reference on me: 41 82 20 BA 
+2016-04-27 19:02:19 INFO  41 82 20 BA :120 - Adding new reference 41 82 20 BA 
+2016-04-27 19:02:19 DEBUG 41 82 20 BA :328 - Reference on myself was not added
+2016-04-27 19:02:19 DEBUG 41 82 20 BA :127 - Invocation of fix fingers was successful
+2016-04-27 19:02:28 DEBUG CheckPredecessorTask:80 - Check predecessor method has been invoked.
+2016-04-27 19:02:28 DEBUG StabilizeTask:98 - Stabilize method has been invoked periodically
+2016-04-27 19:02:28 INFO  CheckPredecessorTask:88 - Nothing to check, as predecessor is null
+2016-04-27 19:02:28 INFO  StabilizeTask:108 - Nothing to stabilize, as successor is null
+2016-04-27 19:02:31 DEBUG 41 82 20 BA :105 - fixFingers tries to get finger for key 41 82 20 BA 
+2016-04-27 19:02:31 INFO  41 82 20 BA :1000 - I appear to be the only node in the network, so I am my own successor; return reference on me: 41 82 20 BA 
+2016-04-27 19:02:31 INFO  41 82 20 BA :120 - Adding new reference 41 82 20 BA 
+2016-04-27 19:02:31 DEBUG 41 82 20 BA :328 - Reference on myself was not added
+2016-04-27 19:02:31 DEBUG 41 82 20 BA :127 - Invocation of fix fingers was successful
+2016-04-27 19:02:40 DEBUG CheckPredecessorTask:80 - Check predecessor method has been invoked.
+2016-04-27 19:02:40 INFO  CheckPredecessorTask:88 - Nothing to check, as predecessor is null
+2016-04-27 19:02:40 DEBUG StabilizeTask:98 - Stabilize method has been invoked periodically
+2016-04-27 19:02:40 INFO  StabilizeTask:108 - Nothing to stabilize, as successor is null
+2016-04-27 19:02:43 DEBUG 41 82 20 BA :105 - fixFingers tries to get finger for key 41 82 20 BA 
+2016-04-27 19:02:43 INFO  41 82 20 BA :1000 - I appear to be the only node in the network, so I am my own successor; return reference on me: 41 82 20 BA 
+2016-04-27 19:02:43 INFO  41 82 20 BA :120 - Adding new reference 41 82 20 BA 
+2016-04-27 19:02:43 DEBUG 41 82 20 BA :328 - Reference on myself was not added
+2016-04-27 19:02:43 DEBUG 41 82 20 BA :127 - Invocation of fix fingers was successful
+2016-04-27 19:02:52 DEBUG CheckPredecessorTask:80 - Check predecessor method has been invoked.
+2016-04-27 19:02:52 DEBUG StabilizeTask:98 - Stabilize method has been invoked periodically
+2016-04-27 19:02:52 INFO  CheckPredecessorTask:88 - Nothing to check, as predecessor is null
+2016-04-27 19:02:52 INFO  StabilizeTask:108 - Nothing to stabilize, as successor is null
+2016-04-27 19:02:55 DEBUG 41 82 20 BA :105 - fixFingers tries to get finger for key 41 82 20 BA 
+2016-04-27 19:02:55 INFO  41 82 20 BA :1000 - I appear to be the only node in the network, so I am my own successor; return reference on me: 41 82 20 BA 
+2016-04-27 19:02:55 INFO  41 82 20 BA :120 - Adding new reference 41 82 20 BA 
+2016-04-27 19:02:55 DEBUG 41 82 20 BA :328 - Reference on myself was not added
+2016-04-27 19:02:55 DEBUG 41 82 20 BA :127 - Invocation of fix fingers was successful
+2016-04-27 19:03:04 DEBUG CheckPredecessorTask:80 - Check predecessor method has been invoked.
+2016-04-27 19:03:04 INFO  CheckPredecessorTask:88 - Nothing to check, as predecessor is null
+2016-04-27 19:03:04 DEBUG StabilizeTask:98 - Stabilize method has been invoked periodically
+2016-04-27 19:03:04 INFO  StabilizeTask:108 - Nothing to stabilize, as successor is null
+2016-04-27 19:03:07 DEBUG 41 82 20 BA :105 - fixFingers tries to get finger for key 41 82 20 BA 
+2016-04-27 19:03:07 INFO  41 82 20 BA :1000 - I appear to be the only node in the network, so I am my own successor; return reference on me: 41 82 20 BA 
+2016-04-27 19:03:07 INFO  41 82 20 BA :120 - Adding new reference 41 82 20 BA 
+2016-04-27 19:03:07 DEBUG 41 82 20 BA :328 - Reference on myself was not added
+2016-04-27 19:03:07 DEBUG 41 82 20 BA :127 - Invocation of fix fingers was successful
+2016-04-27 19:03:16 DEBUG CheckPredecessorTask:80 - Check predecessor method has been invoked.
+2016-04-27 19:03:16 DEBUG StabilizeTask:98 - Stabilize method has been invoked periodically
+2016-04-27 19:03:16 INFO  CheckPredecessorTask:88 - Nothing to check, as predecessor is null
+2016-04-27 19:03:16 INFO  StabilizeTask:108 - Nothing to stabilize, as successor is null
+2016-04-27 19:03:19 DEBUG 41 82 20 BA :105 - fixFingers tries to get finger for key 41 82 20 BA 
+2016-04-27 19:03:19 INFO  41 82 20 BA :1000 - I appear to be the only node in the network, so I am my own successor; return reference on me: 41 82 20 BA 
+2016-04-27 19:03:19 INFO  41 82 20 BA :120 - Adding new reference 41 82 20 BA 
+2016-04-27 19:03:19 DEBUG 41 82 20 BA :328 - Reference on myself was not added
+2016-04-27 19:03:19 DEBUG 41 82 20 BA :127 - Invocation of fix fingers was successful
+2016-04-27 19:03:28 DEBUG CheckPredecessorTask:80 - Check predecessor method has been invoked.
+2016-04-27 19:03:28 DEBUG StabilizeTask:98 - Stabilize method has been invoked periodically
+2016-04-27 19:03:28 INFO  CheckPredecessorTask:88 - Nothing to check, as predecessor is null
+2016-04-27 19:03:28 INFO  StabilizeTask:108 - Nothing to stabilize, as successor is null
+2016-04-27 19:03:31 DEBUG 41 82 20 BA :105 - fixFingers tries to get finger for key 41 82 20 BA 
+2016-04-27 19:03:31 INFO  41 82 20 BA :1000 - I appear to be the only node in the network, so I am my own successor; return reference on me: 41 82 20 BA 
+2016-04-27 19:03:31 INFO  41 82 20 BA :120 - Adding new reference 41 82 20 BA 
+2016-04-27 19:03:31 DEBUG 41 82 20 BA :328 - Reference on myself was not added
+2016-04-27 19:03:31 DEBUG 41 82 20 BA :127 - Invocation of fix fingers was successful
+2016-04-27 19:03:40 DEBUG CheckPredecessorTask:80 - Check predecessor method has been invoked.
+2016-04-27 19:03:40 DEBUG StabilizeTask:98 - Stabilize method has been invoked periodically
+2016-04-27 19:03:40 INFO  CheckPredecessorTask:88 - Nothing to check, as predecessor is null
+2016-04-27 19:03:40 INFO  StabilizeTask:108 - Nothing to stabilize, as successor is null
+2016-04-27 19:03:43 DEBUG 41 82 20 BA :105 - fixFingers tries to get finger for key 41 82 20 BA 
+2016-04-27 19:03:43 INFO  41 82 20 BA :1000 - I appear to be the only node in the network, so I am my own successor; return reference on me: 41 82 20 BA 
+2016-04-27 19:03:43 INFO  41 82 20 BA :120 - Adding new reference 41 82 20 BA 
+2016-04-27 19:03:43 DEBUG 41 82 20 BA :328 - Reference on myself was not added
+2016-04-27 19:03:43 DEBUG 41 82 20 BA :127 - Invocation of fix fingers was successful
+2016-04-27 19:03:52 DEBUG StabilizeTask:98 - Stabilize method has been invoked periodically
+2016-04-27 19:03:52 DEBUG CheckPredecessorTask:80 - Check predecessor method has been invoked.
+2016-04-27 19:03:52 INFO  CheckPredecessorTask:88 - Nothing to check, as predecessor is null
+2016-04-27 19:03:52 INFO  StabilizeTask:108 - Nothing to stabilize, as successor is null
+2016-04-27 19:03:55 DEBUG 41 82 20 BA :105 - fixFingers tries to get finger for key 41 82 20 BA 
+2016-04-27 19:03:55 INFO  41 82 20 BA :1000 - I appear to be the only node in the network, so I am my own successor; return reference on me: 41 82 20 BA 
+2016-04-27 19:03:55 INFO  41 82 20 BA :120 - Adding new reference 41 82 20 BA 
+2016-04-27 19:03:55 DEBUG 41 82 20 BA :328 - Reference on myself was not added
+2016-04-27 19:03:55 DEBUG 41 82 20 BA :127 - Invocation of fix fingers was successful
+2016-04-27 19:04:04 DEBUG CheckPredecessorTask:80 - Check predecessor method has been invoked.
+2016-04-27 19:04:04 DEBUG StabilizeTask:98 - Stabilize method has been invoked periodically
+2016-04-27 19:04:04 INFO  CheckPredecessorTask:88 - Nothing to check, as predecessor is null
+2016-04-27 19:04:04 INFO  StabilizeTask:108 - Nothing to stabilize, as successor is null
+2016-04-27 19:04:07 DEBUG 41 82 20 BA :105 - fixFingers tries to get finger for key 41 82 20 BA 
+2016-04-27 19:04:07 INFO  41 82 20 BA :1000 - I appear to be the only node in the network, so I am my own successor; return reference on me: 41 82 20 BA 
+2016-04-27 19:04:07 INFO  41 82 20 BA :120 - Adding new reference 41 82 20 BA 
+2016-04-27 19:04:07 DEBUG 41 82 20 BA :328 - Reference on myself was not added
+2016-04-27 19:04:07 DEBUG 41 82 20 BA :127 - Invocation of fix fingers was successful
+2016-04-27 19:04:16 DEBUG CheckPredecessorTask:80 - Check predecessor method has been invoked.
+2016-04-27 19:04:16 DEBUG StabilizeTask:98 - Stabilize method has been invoked periodically
+2016-04-27 19:04:16 INFO  CheckPredecessorTask:88 - Nothing to check, as predecessor is null
+2016-04-27 19:04:16 INFO  StabilizeTask:108 - Nothing to stabilize, as successor is null
+2016-04-27 19:04:19 DEBUG 41 82 20 BA :105 - fixFingers tries to get finger for key 41 82 21 BA 
+2016-04-27 19:04:19 INFO  41 82 20 BA :1000 - I appear to be the only node in the network, so I am my own successor; return reference on me: 41 82 20 BA 
+2016-04-27 19:04:19 INFO  41 82 20 BA :120 - Adding new reference 41 82 20 BA 
+2016-04-27 19:04:19 DEBUG 41 82 20 BA :328 - Reference on myself was not added
+2016-04-27 19:04:19 DEBUG 41 82 20 BA :127 - Invocation of fix fingers was successful
+2016-04-27 19:04:28 DEBUG CheckPredecessorTask:80 - Check predecessor method has been invoked.
+2016-04-27 19:04:28 DEBUG StabilizeTask:98 - Stabilize method has been invoked periodically
+2016-04-27 19:04:28 INFO  CheckPredecessorTask:88 - Nothing to check, as predecessor is null
+2016-04-27 19:04:28 INFO  StabilizeTask:108 - Nothing to stabilize, as successor is null
+2016-04-27 19:04:31 DEBUG 41 82 20 BA :105 - fixFingers tries to get finger for key 41 82 20 BA 
+2016-04-27 19:04:31 INFO  41 82 20 BA :1000 - I appear to be the only node in the network, so I am my own successor; return reference on me: 41 82 20 BA 
+2016-04-27 19:04:31 INFO  41 82 20 BA :120 - Adding new reference 41 82 20 BA 
+2016-04-27 19:04:31 DEBUG 41 82 20 BA :328 - Reference on myself was not added
+2016-04-27 19:04:31 DEBUG 41 82 20 BA :127 - Invocation of fix fingers was successful
+2016-04-27 19:04:40 DEBUG CheckPredecessorTask:80 - Check predecessor method has been invoked.
+2016-04-27 19:04:40 DEBUG StabilizeTask:98 - Stabilize method has been invoked periodically
+2016-04-27 19:04:40 INFO  CheckPredecessorTask:88 - Nothing to check, as predecessor is null
+2016-04-27 19:04:40 INFO  StabilizeTask:108 - Nothing to stabilize, as successor is null
+2016-04-27 19:04:43 DEBUG 41 82 20 BA :105 - fixFingers tries to get finger for key 41 82 20 BA 
+2016-04-27 19:04:43 INFO  41 82 20 BA :1000 - I appear to be the only node in the network, so I am my own successor; return reference on me: 41 82 20 BA 
+2016-04-27 19:04:43 INFO  41 82 20 BA :120 - Adding new reference 41 82 20 BA 
+2016-04-27 19:04:43 DEBUG 41 82 20 BA :328 - Reference on myself was not added
+2016-04-27 19:04:43 DEBUG 41 82 20 BA :127 - Invocation of fix fingers was successful
+2016-04-27 19:04:52 DEBUG CheckPredecessorTask:80 - Check predecessor method has been invoked.
+2016-04-27 19:04:52 DEBUG StabilizeTask:98 - Stabilize method has been invoked periodically
+2016-04-27 19:04:52 INFO  CheckPredecessorTask:88 - Nothing to check, as predecessor is null
+2016-04-27 19:04:52 INFO  StabilizeTask:108 - Nothing to stabilize, as successor is null
+2016-04-27 19:04:55 DEBUG 41 82 20 BA :105 - fixFingers tries to get finger for key 61 82 20 BA 
+2016-04-27 19:04:55 INFO  41 82 20 BA :1000 - I appear to be the only node in the network, so I am my own successor; return reference on me: 41 82 20 BA 
+2016-04-27 19:04:55 INFO  41 82 20 BA :120 - Adding new reference 41 82 20 BA 
+2016-04-27 19:04:55 DEBUG 41 82 20 BA :328 - Reference on myself was not added
+2016-04-27 19:04:55 DEBUG 41 82 20 BA :127 - Invocation of fix fingers was successful
+2016-04-27 19:05:04 DEBUG CheckPredecessorTask:80 - Check predecessor method has been invoked.
+2016-04-27 19:05:04 DEBUG StabilizeTask:98 - Stabilize method has been invoked periodically
+2016-04-27 19:05:04 INFO  CheckPredecessorTask:88 - Nothing to check, as predecessor is null
+2016-04-27 19:05:04 INFO  StabilizeTask:108 - Nothing to stabilize, as successor is null
+2016-04-27 19:05:07 DEBUG 41 82 20 BA :105 - fixFingers tries to get finger for key 41 82 20 BA 
+2016-04-27 19:05:07 INFO  41 82 20 BA :1000 - I appear to be the only node in the network, so I am my own successor; return reference on me: 41 82 20 BA 
+2016-04-27 19:05:07 INFO  41 82 20 BA :120 - Adding new reference 41 82 20 BA 
+2016-04-27 19:05:07 DEBUG 41 82 20 BA :328 - Reference on myself was not added
+2016-04-27 19:05:07 DEBUG 41 82 20 BA :127 - Invocation of fix fingers was successful
+2016-04-27 19:05:16 DEBUG CheckPredecessorTask:80 - Check predecessor method has been invoked.
+2016-04-27 19:05:16 DEBUG StabilizeTask:98 - Stabilize method has been invoked periodically
+2016-04-27 19:05:16 INFO  CheckPredecessorTask:88 - Nothing to check, as predecessor is null
+2016-04-27 19:05:16 INFO  StabilizeTask:108 - Nothing to stabilize, as successor is null
+2016-04-27 19:05:19 DEBUG 41 82 20 BA :105 - fixFingers tries to get finger for key 41 82 20 BA 
+2016-04-27 19:05:19 INFO  41 82 20 BA :1000 - I appear to be the only node in the network, so I am my own successor; return reference on me: 41 82 20 BA 
+2016-04-27 19:05:19 INFO  41 82 20 BA :120 - Adding new reference 41 82 20 BA 
+2016-04-27 19:05:19 DEBUG 41 82 20 BA :328 - Reference on myself was not added
+2016-04-27 19:05:19 DEBUG 41 82 20 BA :127 - Invocation of fix fingers was successful
+2016-04-27 19:05:28 DEBUG CheckPredecessorTask:80 - Check predecessor method has been invoked.
+2016-04-27 19:05:28 INFO  CheckPredecessorTask:88 - Nothing to check, as predecessor is null
+2016-04-27 19:05:28 DEBUG StabilizeTask:98 - Stabilize method has been invoked periodically
+2016-04-27 19:05:28 INFO  StabilizeTask:108 - Nothing to stabilize, as successor is null
+2016-04-27 19:05:31 DEBUG 41 82 20 BA :105 - fixFingers tries to get finger for key 41 82 20 BA 
+2016-04-27 19:05:31 INFO  41 82 20 BA :1000 - I appear to be the only node in the network, so I am my own successor; return reference on me: 41 82 20 BA 
+2016-04-27 19:05:31 INFO  41 82 20 BA :120 - Adding new reference 41 82 20 BA 
+2016-04-27 19:05:31 DEBUG 41 82 20 BA :328 - Reference on myself was not added
+2016-04-27 19:05:31 DEBUG 41 82 20 BA :127 - Invocation of fix fingers was successful
+2016-04-27 19:05:40 DEBUG CheckPredecessorTask:80 - Check predecessor method has been invoked.
+2016-04-27 19:05:40 DEBUG StabilizeTask:98 - Stabilize method has been invoked periodically
+2016-04-27 19:05:40 INFO  CheckPredecessorTask:88 - Nothing to check, as predecessor is null
+2016-04-27 19:05:40 INFO  StabilizeTask:108 - Nothing to stabilize, as successor is null
+2016-04-27 19:05:43 DEBUG 41 82 20 BA :105 - fixFingers tries to get finger for key 41 82 24 BA 
+2016-04-27 19:05:43 INFO  41 82 20 BA :1000 - I appear to be the only node in the network, so I am my own successor; return reference on me: 41 82 20 BA 
+2016-04-27 19:05:43 INFO  41 82 20 BA :120 - Adding new reference 41 82 20 BA 
+2016-04-27 19:05:43 DEBUG 41 82 20 BA :328 - Reference on myself was not added
+2016-04-27 19:05:43 DEBUG 41 82 20 BA :127 - Invocation of fix fingers was successful
+2016-04-27 19:05:52 DEBUG CheckPredecessorTask:80 - Check predecessor method has been invoked.
+2016-04-27 19:05:52 DEBUG StabilizeTask:98 - Stabilize method has been invoked periodically
+2016-04-27 19:05:52 INFO  CheckPredecessorTask:88 - Nothing to check, as predecessor is null
+2016-04-27 19:05:52 INFO  StabilizeTask:108 - Nothing to stabilize, as successor is null
+2016-04-27 19:05:55 DEBUG 41 82 20 BA :105 - fixFingers tries to get finger for key 41 82 20 BA 
+2016-04-27 19:05:55 INFO  41 82 20 BA :1000 - I appear to be the only node in the network, so I am my own successor; return reference on me: 41 82 20 BA 
+2016-04-27 19:05:55 INFO  41 82 20 BA :120 - Adding new reference 41 82 20 BA 
+2016-04-27 19:05:55 DEBUG 41 82 20 BA :328 - Reference on myself was not added
+2016-04-27 19:05:55 DEBUG 41 82 20 BA :127 - Invocation of fix fingers was successful
+2016-04-27 19:06:04 DEBUG CheckPredecessorTask:80 - Check predecessor method has been invoked.
+2016-04-27 19:06:04 DEBUG StabilizeTask:98 - Stabilize method has been invoked periodically
+2016-04-27 19:06:04 INFO  CheckPredecessorTask:88 - Nothing to check, as predecessor is null
+2016-04-27 19:06:04 INFO  StabilizeTask:108 - Nothing to stabilize, as successor is null
+2016-04-27 19:06:07 DEBUG 41 82 20 BA :105 - fixFingers tries to get finger for key 41 82 20 BA 
+2016-04-27 19:06:07 INFO  41 82 20 BA :1000 - I appear to be the only node in the network, so I am my own successor; return reference on me: 41 82 20 BA 
+2016-04-27 19:06:07 INFO  41 82 20 BA :120 - Adding new reference 41 82 20 BA 
+2016-04-27 19:06:07 DEBUG 41 82 20 BA :328 - Reference on myself was not added
+2016-04-27 19:06:07 DEBUG 41 82 20 BA :127 - Invocation of fix fingers was successful
+2016-04-27 19:06:16 DEBUG CheckPredecessorTask:80 - Check predecessor method has been invoked.
+2016-04-27 19:06:16 INFO  CheckPredecessorTask:88 - Nothing to check, as predecessor is null
+2016-04-27 19:06:16 DEBUG StabilizeTask:98 - Stabilize method has been invoked periodically
+2016-04-27 19:06:16 INFO  StabilizeTask:108 - Nothing to stabilize, as successor is null
+2016-04-27 19:06:19 DEBUG 41 82 20 BA :105 - fixFingers tries to get finger for key 41 82 20 BA 
+2016-04-27 19:06:19 INFO  41 82 20 BA :1000 - I appear to be the only node in the network, so I am my own successor; return reference on me: 41 82 20 BA 
+2016-04-27 19:06:19 INFO  41 82 20 BA :120 - Adding new reference 41 82 20 BA 
+2016-04-27 19:06:19 DEBUG 41 82 20 BA :328 - Reference on myself was not added
+2016-04-27 19:06:19 DEBUG 41 82 20 BA :127 - Invocation of fix fingers was successful
+2016-04-27 19:06:28 DEBUG StabilizeTask:98 - Stabilize method has been invoked periodically
+2016-04-27 19:06:28 INFO  StabilizeTask:108 - Nothing to stabilize, as successor is null
+2016-04-27 19:06:28 DEBUG CheckPredecessorTask:80 - Check predecessor method has been invoked.
+2016-04-27 19:06:28 INFO  CheckPredecessorTask:88 - Nothing to check, as predecessor is null
+2016-04-27 19:06:31 DEBUG 41 82 20 BA :105 - fixFingers tries to get finger for key 41 82 20 BA 
+2016-04-27 19:06:31 INFO  41 82 20 BA :1000 - I appear to be the only node in the network, so I am my own successor; return reference on me: 41 82 20 BA 
+2016-04-27 19:06:31 INFO  41 82 20 BA :120 - Adding new reference 41 82 20 BA 
+2016-04-27 19:06:31 DEBUG 41 82 20 BA :328 - Reference on myself was not added
+2016-04-27 19:06:31 DEBUG 41 82 20 BA :127 - Invocation of fix fingers was successful
+2016-04-27 19:06:40 DEBUG StabilizeTask:98 - Stabilize method has been invoked periodically
+2016-04-27 19:06:40 DEBUG CheckPredecessorTask:80 - Check predecessor method has been invoked.
+2016-04-27 19:06:40 INFO  CheckPredecessorTask:88 - Nothing to check, as predecessor is null
+2016-04-27 19:06:40 INFO  StabilizeTask:108 - Nothing to stabilize, as successor is null
+2016-04-27 19:06:43 DEBUG 41 82 20 BA :105 - fixFingers tries to get finger for key C1 82 20 BA 
+2016-04-27 19:06:43 INFO  41 82 20 BA :1000 - I appear to be the only node in the network, so I am my own successor; return reference on me: 41 82 20 BA 
+2016-04-27 19:06:43 INFO  41 82 20 BA :120 - Adding new reference 41 82 20 BA 
+2016-04-27 19:06:43 DEBUG 41 82 20 BA :328 - Reference on myself was not added
+2016-04-27 19:06:43 DEBUG 41 82 20 BA :127 - Invocation of fix fingers was successful
+2016-04-27 19:06:52 DEBUG StabilizeTask:98 - Stabilize method has been invoked periodically
+2016-04-27 19:06:52 INFO  StabilizeTask:108 - Nothing to stabilize, as successor is null
+2016-04-27 19:06:52 DEBUG CheckPredecessorTask:80 - Check predecessor method has been invoked.
+2016-04-27 19:06:52 INFO  CheckPredecessorTask:88 - Nothing to check, as predecessor is null
+2016-04-27 19:06:55 DEBUG 41 82 20 BA :105 - fixFingers tries to get finger for key 41 82 20 BA 
+2016-04-27 19:06:55 INFO  41 82 20 BA :1000 - I appear to be the only node in the network, so I am my own successor; return reference on me: 41 82 20 BA 
+2016-04-27 19:06:55 INFO  41 82 20 BA :120 - Adding new reference 41 82 20 BA 
+2016-04-27 19:06:55 DEBUG 41 82 20 BA :328 - Reference on myself was not added
+2016-04-27 19:06:55 DEBUG 41 82 20 BA :127 - Invocation of fix fingers was successful
+2016-04-27 19:07:04 DEBUG StabilizeTask:98 - Stabilize method has been invoked periodically
+2016-04-27 19:07:04 INFO  StabilizeTask:108 - Nothing to stabilize, as successor is null
+2016-04-27 19:07:04 DEBUG CheckPredecessorTask:80 - Check predecessor method has been invoked.
+2016-04-27 19:07:04 INFO  CheckPredecessorTask:88 - Nothing to check, as predecessor is null
+2016-04-27 19:07:07 DEBUG 41 82 20 BA :105 - fixFingers tries to get finger for key 41 82 20 BA 
+2016-04-27 19:07:07 INFO  41 82 20 BA :1000 - I appear to be the only node in the network, so I am my own successor; return reference on me: 41 82 20 BA 
+2016-04-27 19:07:07 INFO  41 82 20 BA :120 - Adding new reference 41 82 20 BA 
+2016-04-27 19:07:07 DEBUG 41 82 20 BA :328 - Reference on myself was not added
+2016-04-27 19:07:07 DEBUG 41 82 20 BA :127 - Invocation of fix fingers was successful
+2016-04-27 19:07:16 DEBUG StabilizeTask:98 - Stabilize method has been invoked periodically
+2016-04-27 19:07:16 INFO  StabilizeTask:108 - Nothing to stabilize, as successor is null
+2016-04-27 19:07:16 DEBUG CheckPredecessorTask:80 - Check predecessor method has been invoked.
+2016-04-27 19:07:16 INFO  CheckPredecessorTask:88 - Nothing to check, as predecessor is null
+2016-04-27 19:07:19 DEBUG 41 82 20 BA :105 - fixFingers tries to get finger for key 41 82 20 BA 
+2016-04-27 19:07:19 INFO  41 82 20 BA :1000 - I appear to be the only node in the network, so I am my own successor; return reference on me: 41 82 20 BA 
+2016-04-27 19:07:19 INFO  41 82 20 BA :120 - Adding new reference 41 82 20 BA 
+2016-04-27 19:07:19 DEBUG 41 82 20 BA :328 - Reference on myself was not added
+2016-04-27 19:07:19 DEBUG 41 82 20 BA :127 - Invocation of fix fingers was successful
+2016-04-27 19:07:28 DEBUG StabilizeTask:98 - Stabilize method has been invoked periodically
+2016-04-27 19:07:28 DEBUG CheckPredecessorTask:80 - Check predecessor method has been invoked.
+2016-04-27 19:07:28 INFO  CheckPredecessorTask:88 - Nothing to check, as predecessor is null
+2016-04-27 19:07:28 INFO  StabilizeTask:108 - Nothing to stabilize, as successor is null
+2016-04-27 19:07:31 DEBUG 41 82 20 BA :105 - fixFingers tries to get finger for key 41 82 20 BA 
+2016-04-27 19:07:31 INFO  41 82 20 BA :1000 - I appear to be the only node in the network, so I am my own successor; return reference on me: 41 82 20 BA 
+2016-04-27 19:07:31 INFO  41 82 20 BA :120 - Adding new reference 41 82 20 BA 
+2016-04-27 19:07:31 DEBUG 41 82 20 BA :328 - Reference on myself was not added
+2016-04-27 19:07:31 DEBUG 41 82 20 BA :127 - Invocation of fix fingers was successful
+2016-04-27 19:07:40 DEBUG CheckPredecessorTask:80 - Check predecessor method has been invoked.
+2016-04-27 19:07:40 DEBUG StabilizeTask:98 - Stabilize method has been invoked periodically
+2016-04-27 19:07:40 INFO  CheckPredecessorTask:88 - Nothing to check, as predecessor is null
+2016-04-27 19:07:40 INFO  StabilizeTask:108 - Nothing to stabilize, as successor is null
+2016-04-27 19:07:43 DEBUG 41 82 20 BA :105 - fixFingers tries to get finger for key 41 82 20 BA 
+2016-04-27 19:07:43 INFO  41 82 20 BA :1000 - I appear to be the only node in the network, so I am my own successor; return reference on me: 41 82 20 BA 
+2016-04-27 19:07:43 INFO  41 82 20 BA :120 - Adding new reference 41 82 20 BA 
+2016-04-27 19:07:43 DEBUG 41 82 20 BA :328 - Reference on myself was not added
+2016-04-27 19:07:43 DEBUG 41 82 20 BA :127 - Invocation of fix fingers was successful
+2016-04-27 19:07:52 DEBUG CheckPredecessorTask:80 - Check predecessor method has been invoked.
+2016-04-27 19:07:52 INFO  CheckPredecessorTask:88 - Nothing to check, as predecessor is null
+2016-04-27 19:07:52 DEBUG StabilizeTask:98 - Stabilize method has been invoked periodically
+2016-04-27 19:07:52 INFO  StabilizeTask:108 - Nothing to stabilize, as successor is null
+2016-04-27 19:07:55 DEBUG 41 82 20 BA :105 - fixFingers tries to get finger for key 41 82 20 BA 
+2016-04-27 19:07:55 INFO  41 82 20 BA :1000 - I appear to be the only node in the network, so I am my own successor; return reference on me: 41 82 20 BA 
+2016-04-27 19:07:55 INFO  41 82 20 BA :120 - Adding new reference 41 82 20 BA 
+2016-04-27 19:07:55 DEBUG 41 82 20 BA :328 - Reference on myself was not added
+2016-04-27 19:07:55 DEBUG 41 82 20 BA :127 - Invocation of fix fingers was successful
+2016-04-27 19:08:04 DEBUG CheckPredecessorTask:80 - Check predecessor method has been invoked.
+2016-04-27 19:08:04 DEBUG StabilizeTask:98 - Stabilize method has been invoked periodically
+2016-04-27 19:08:04 INFO  CheckPredecessorTask:88 - Nothing to check, as predecessor is null
+2016-04-27 19:08:04 INFO  StabilizeTask:108 - Nothing to stabilize, as successor is null
+2016-04-27 19:08:07 DEBUG 41 82 20 BA :105 - fixFingers tries to get finger for key 61 82 20 BA 
+2016-04-27 19:08:07 INFO  41 82 20 BA :1000 - I appear to be the only node in the network, so I am my own successor; return reference on me: 41 82 20 BA 
+2016-04-27 19:08:07 INFO  41 82 20 BA :120 - Adding new reference 41 82 20 BA 
+2016-04-27 19:08:07 DEBUG 41 82 20 BA :328 - Reference on myself was not added
+2016-04-27 19:08:07 DEBUG 41 82 20 BA :127 - Invocation of fix fingers was successful
+2016-04-27 19:08:16 DEBUG CheckPredecessorTask:80 - Check predecessor method has been invoked.
+2016-04-27 19:08:16 INFO  CheckPredecessorTask:88 - Nothing to check, as predecessor is null
+2016-04-27 19:08:16 DEBUG StabilizeTask:98 - Stabilize method has been invoked periodically
+2016-04-27 19:08:16 INFO  StabilizeTask:108 - Nothing to stabilize, as successor is null
+2016-04-27 19:08:19 DEBUG 41 82 20 BA :105 - fixFingers tries to get finger for key 41 82 20 BA 
+2016-04-27 19:08:19 INFO  41 82 20 BA :1000 - I appear to be the only node in the network, so I am my own successor; return reference on me: 41 82 20 BA 
+2016-04-27 19:08:19 INFO  41 82 20 BA :120 - Adding new reference 41 82 20 BA 
+2016-04-27 19:08:19 DEBUG 41 82 20 BA :328 - Reference on myself was not added
+2016-04-27 19:08:19 DEBUG 41 82 20 BA :127 - Invocation of fix fingers was successful
+2016-04-27 19:08:28 DEBUG StabilizeTask:98 - Stabilize method has been invoked periodically
+2016-04-27 19:08:28 INFO  StabilizeTask:108 - Nothing to stabilize, as successor is null
+2016-04-27 19:08:28 DEBUG CheckPredecessorTask:80 - Check predecessor method has been invoked.
+2016-04-27 19:08:28 INFO  CheckPredecessorTask:88 - Nothing to check, as predecessor is null
+2016-04-27 19:08:31 DEBUG 41 82 20 BA :105 - fixFingers tries to get finger for key 41 82 20 BA 
+2016-04-27 19:08:31 INFO  41 82 20 BA :1000 - I appear to be the only node in the network, so I am my own successor; return reference on me: 41 82 20 BA 
+2016-04-27 19:08:31 INFO  41 82 20 BA :120 - Adding new reference 41 82 20 BA 
+2016-04-27 19:08:31 DEBUG 41 82 20 BA :328 - Reference on myself was not added
+2016-04-27 19:08:31 DEBUG 41 82 20 BA :127 - Invocation of fix fingers was successful
+2016-04-27 19:08:40 DEBUG StabilizeTask:98 - Stabilize method has been invoked periodically
+2016-04-27 19:08:40 INFO  StabilizeTask:108 - Nothing to stabilize, as successor is null
+2016-04-27 19:08:40 DEBUG CheckPredecessorTask:80 - Check predecessor method has been invoked.
+2016-04-27 19:08:40 INFO  CheckPredecessorTask:88 - Nothing to check, as predecessor is null
+2016-04-27 19:08:43 DEBUG 41 82 20 BA :105 - fixFingers tries to get finger for key 41 82 20 BA 
+2016-04-27 19:08:43 INFO  41 82 20 BA :1000 - I appear to be the only node in the network, so I am my own successor; return reference on me: 41 82 20 BA 
+2016-04-27 19:08:43 INFO  41 82 20 BA :120 - Adding new reference 41 82 20 BA 
+2016-04-27 19:08:43 DEBUG 41 82 20 BA :328 - Reference on myself was not added
+2016-04-27 19:08:43 DEBUG 41 82 20 BA :127 - Invocation of fix fingers was successful
+2016-04-27 19:08:52 DEBUG StabilizeTask:98 - Stabilize method has been invoked periodically
+2016-04-27 19:08:52 DEBUG CheckPredecessorTask:80 - Check predecessor method has been invoked.
+2016-04-27 19:08:52 INFO  CheckPredecessorTask:88 - Nothing to check, as predecessor is null
+2016-04-27 19:08:52 INFO  StabilizeTask:108 - Nothing to stabilize, as successor is null
+2016-04-27 19:08:55 DEBUG 41 82 20 BA :105 - fixFingers tries to get finger for key 41 82 20 BA 
+2016-04-27 19:08:55 INFO  41 82 20 BA :1000 - I appear to be the only node in the network, so I am my own successor; return reference on me: 41 82 20 BA 
+2016-04-27 19:08:55 INFO  41 82 20 BA :120 - Adding new reference 41 82 20 BA 
+2016-04-27 19:08:55 DEBUG 41 82 20 BA :328 - Reference on myself was not added
+2016-04-27 19:08:55 DEBUG 41 82 20 BA :127 - Invocation of fix fingers was successful
+2016-04-27 19:09:04 DEBUG CheckPredecessorTask:80 - Check predecessor method has been invoked.
+2016-04-27 19:09:04 INFO  CheckPredecessorTask:88 - Nothing to check, as predecessor is null
+2016-04-27 19:09:04 DEBUG StabilizeTask:98 - Stabilize method has been invoked periodically
+2016-04-27 19:09:04 INFO  StabilizeTask:108 - Nothing to stabilize, as successor is null
+2016-04-27 19:09:07 DEBUG 41 82 20 BA :105 - fixFingers tries to get finger for key 41 82 20 BA 
+2016-04-27 19:09:07 INFO  41 82 20 BA :1000 - I appear to be the only node in the network, so I am my own successor; return reference on me: 41 82 20 BA 
+2016-04-27 19:09:07 INFO  41 82 20 BA :120 - Adding new reference 41 82 20 BA 
+2016-04-27 19:09:07 DEBUG 41 82 20 BA :328 - Reference on myself was not added
+2016-04-27 19:09:07 DEBUG 41 82 20 BA :127 - Invocation of fix fingers was successful
+2016-04-27 19:09:16 DEBUG CheckPredecessorTask:80 - Check predecessor method has been invoked.
+2016-04-27 19:09:16 INFO  CheckPredecessorTask:88 - Nothing to check, as predecessor is null
+2016-04-27 19:09:16 DEBUG StabilizeTask:98 - Stabilize method has been invoked periodically
+2016-04-27 19:09:16 INFO  StabilizeTask:108 - Nothing to stabilize, as successor is null
+2016-04-27 19:09:19 DEBUG 41 82 20 BA :105 - fixFingers tries to get finger for key 41 86 20 BA 
+2016-04-27 19:09:19 INFO  41 82 20 BA :1000 - I appear to be the only node in the network, so I am my own successor; return reference on me: 41 82 20 BA 
+2016-04-27 19:09:19 INFO  41 82 20 BA :120 - Adding new reference 41 82 20 BA 
+2016-04-27 19:09:19 DEBUG 41 82 20 BA :328 - Reference on myself was not added
+2016-04-27 19:09:19 DEBUG 41 82 20 BA :127 - Invocation of fix fingers was successful
+2016-04-27 19:09:28 DEBUG CheckPredecessorTask:80 - Check predecessor method has been invoked.
+2016-04-27 19:09:28 DEBUG StabilizeTask:98 - Stabilize method has been invoked periodically
+2016-04-27 19:09:28 INFO  CheckPredecessorTask:88 - Nothing to check, as predecessor is null
+2016-04-27 19:09:28 INFO  StabilizeTask:108 - Nothing to stabilize, as successor is null
+2016-04-27 19:09:31 DEBUG 41 82 20 BA :105 - fixFingers tries to get finger for key 41 82 20 BA 
+2016-04-27 19:09:31 INFO  41 82 20 BA :1000 - I appear to be the only node in the network, so I am my own successor; return reference on me: 41 82 20 BA 
+2016-04-27 19:09:31 INFO  41 82 20 BA :120 - Adding new reference 41 82 20 BA 
+2016-04-27 19:09:31 DEBUG 41 82 20 BA :328 - Reference on myself was not added
+2016-04-27 19:09:31 DEBUG 41 82 20 BA :127 - Invocation of fix fingers was successful
+2016-04-27 19:09:40 DEBUG CheckPredecessorTask:80 - Check predecessor method has been invoked.
+2016-04-27 19:09:40 DEBUG StabilizeTask:98 - Stabilize method has been invoked periodically
+2016-04-27 19:09:40 INFO  CheckPredecessorTask:88 - Nothing to check, as predecessor is null
+2016-04-27 19:09:40 INFO  StabilizeTask:108 - Nothing to stabilize, as successor is null
+2016-04-27 19:09:43 DEBUG 41 82 20 BA :105 - fixFingers tries to get finger for key 41 82 20 BA 
+2016-04-27 19:09:43 INFO  41 82 20 BA :1000 - I appear to be the only node in the network, so I am my own successor; return reference on me: 41 82 20 BA 
+2016-04-27 19:09:43 INFO  41 82 20 BA :120 - Adding new reference 41 82 20 BA 
+2016-04-27 19:09:43 DEBUG 41 82 20 BA :328 - Reference on myself was not added
+2016-04-27 19:09:43 DEBUG 41 82 20 BA :127 - Invocation of fix fingers was successful
+2016-04-27 19:09:52 DEBUG CheckPredecessorTask:80 - Check predecessor method has been invoked.
+2016-04-27 19:09:52 INFO  CheckPredecessorTask:88 - Nothing to check, as predecessor is null
+2016-04-27 19:09:52 DEBUG StabilizeTask:98 - Stabilize method has been invoked periodically
+2016-04-27 19:09:52 INFO  StabilizeTask:108 - Nothing to stabilize, as successor is null
+2016-04-27 19:09:55 DEBUG 41 82 20 BA :105 - fixFingers tries to get finger for key 41 82 20 BA 
+2016-04-27 19:09:55 INFO  41 82 20 BA :1000 - I appear to be the only node in the network, so I am my own successor; return reference on me: 41 82 20 BA 
+2016-04-27 19:09:55 INFO  41 82 20 BA :120 - Adding new reference 41 82 20 BA 
+2016-04-27 19:09:55 DEBUG 41 82 20 BA :328 - Reference on myself was not added
+2016-04-27 19:09:55 DEBUG 41 82 20 BA :127 - Invocation of fix fingers was successful
+2016-04-27 19:10:04 DEBUG CheckPredecessorTask:80 - Check predecessor method has been invoked.
+2016-04-27 19:10:04 DEBUG StabilizeTask:98 - Stabilize method has been invoked periodically
+2016-04-27 19:10:04 INFO  CheckPredecessorTask:88 - Nothing to check, as predecessor is null
+2016-04-27 19:10:04 INFO  StabilizeTask:108 - Nothing to stabilize, as successor is null
+2016-04-27 19:10:07 DEBUG 41 82 20 BA :105 - fixFingers tries to get finger for key 41 82 20 BA 
+2016-04-27 19:10:07 INFO  41 82 20 BA :1000 - I appear to be the only node in the network, so I am my own successor; return reference on me: 41 82 20 BA 
+2016-04-27 19:10:07 INFO  41 82 20 BA :120 - Adding new reference 41 82 20 BA 
+2016-04-27 19:10:07 DEBUG 41 82 20 BA :328 - Reference on myself was not added
+2016-04-27 19:10:07 DEBUG 41 82 20 BA :127 - Invocation of fix fingers was successful
+2016-04-27 19:10:16 DEBUG CheckPredecessorTask:80 - Check predecessor method has been invoked.
+2016-04-27 19:10:16 DEBUG StabilizeTask:98 - Stabilize method has been invoked periodically
+2016-04-27 19:10:16 INFO  CheckPredecessorTask:88 - Nothing to check, as predecessor is null
+2016-04-27 19:10:16 INFO  StabilizeTask:108 - Nothing to stabilize, as successor is null
+2016-04-27 19:10:19 DEBUG 41 82 20 BA :105 - fixFingers tries to get finger for key 41 82 20 BA 
+2016-04-27 19:10:19 INFO  41 82 20 BA :1000 - I appear to be the only node in the network, so I am my own successor; return reference on me: 41 82 20 BA 
+2016-04-27 19:10:19 INFO  41 82 20 BA :120 - Adding new reference 41 82 20 BA 
+2016-04-27 19:10:19 DEBUG 41 82 20 BA :328 - Reference on myself was not added
+2016-04-27 19:10:19 DEBUG 41 82 20 BA :127 - Invocation of fix fingers was successful
+2016-04-27 19:10:28 DEBUG CheckPredecessorTask:80 - Check predecessor method has been invoked.
+2016-04-27 19:10:28 DEBUG StabilizeTask:98 - Stabilize method has been invoked periodically
+2016-04-27 19:10:28 INFO  CheckPredecessorTask:88 - Nothing to check, as predecessor is null
+2016-04-27 19:10:28 INFO  StabilizeTask:108 - Nothing to stabilize, as successor is null
+2016-04-27 19:10:31 DEBUG 41 82 20 BA :105 - fixFingers tries to get finger for key 41 82 20 BA 
+2016-04-27 19:10:31 INFO  41 82 20 BA :1000 - I appear to be the only node in the network, so I am my own successor; return reference on me: 41 82 20 BA 
+2016-04-27 19:10:31 INFO  41 82 20 BA :120 - Adding new reference 41 82 20 BA 
+2016-04-27 19:10:31 DEBUG 41 82 20 BA :328 - Reference on myself was not added
+2016-04-27 19:10:31 DEBUG 41 82 20 BA :127 - Invocation of fix fingers was successful
+2016-04-27 19:10:40 DEBUG CheckPredecessorTask:80 - Check predecessor method has been invoked.
+2016-04-27 19:10:40 DEBUG StabilizeTask:98 - Stabilize method has been invoked periodically
+2016-04-27 19:10:40 INFO  CheckPredecessorTask:88 - Nothing to check, as predecessor is null
+2016-04-27 19:10:40 INFO  StabilizeTask:108 - Nothing to stabilize, as successor is null
+2016-04-27 19:10:43 DEBUG 41 82 20 BA :105 - fixFingers tries to get finger for key 41 86 20 BA 
+2016-04-27 19:10:43 INFO  41 82 20 BA :1000 - I appear to be the only node in the network, so I am my own successor; return reference on me: 41 82 20 BA 
+2016-04-27 19:10:43 INFO  41 82 20 BA :120 - Adding new reference 41 82 20 BA 
+2016-04-27 19:10:43 DEBUG 41 82 20 BA :328 - Reference on myself was not added
+2016-04-27 19:10:43 DEBUG 41 82 20 BA :127 - Invocation of fix fingers was successful
+2016-04-27 19:10:52 DEBUG CheckPredecessorTask:80 - Check predecessor method has been invoked.
+2016-04-27 19:10:52 DEBUG StabilizeTask:98 - Stabilize method has been invoked periodically
+2016-04-27 19:10:52 INFO  CheckPredecessorTask:88 - Nothing to check, as predecessor is null
+2016-04-27 19:10:52 INFO  StabilizeTask:108 - Nothing to stabilize, as successor is null
+2016-04-27 19:10:55 DEBUG 41 82 20 BA :105 - fixFingers tries to get finger for key 41 82 20 BA 
+2016-04-27 19:10:55 INFO  41 82 20 BA :1000 - I appear to be the only node in the network, so I am my own successor; return reference on me: 41 82 20 BA 
+2016-04-27 19:10:55 INFO  41 82 20 BA :120 - Adding new reference 41 82 20 BA 
+2016-04-27 19:10:55 DEBUG 41 82 20 BA :328 - Reference on myself was not added
+2016-04-27 19:10:55 DEBUG 41 82 20 BA :127 - Invocation of fix fingers was successful
+2016-04-27 19:11:04 DEBUG CheckPredecessorTask:80 - Check predecessor method has been invoked.
+2016-04-27 19:11:04 DEBUG StabilizeTask:98 - Stabilize method has been invoked periodically
+2016-04-27 19:11:04 INFO  CheckPredecessorTask:88 - Nothing to check, as predecessor is null
+2016-04-27 19:11:04 INFO  StabilizeTask:108 - Nothing to stabilize, as successor is null
+2016-04-27 19:11:07 DEBUG 41 82 20 BA :105 - fixFingers tries to get finger for key 41 82 20 BA 
+2016-04-27 19:11:07 INFO  41 82 20 BA :1000 - I appear to be the only node in the network, so I am my own successor; return reference on me: 41 82 20 BA 
+2016-04-27 19:11:07 INFO  41 82 20 BA :120 - Adding new reference 41 82 20 BA 
+2016-04-27 19:11:07 DEBUG 41 82 20 BA :328 - Reference on myself was not added
+2016-04-27 19:11:07 DEBUG 41 82 20 BA :127 - Invocation of fix fingers was successful
+2016-04-27 19:11:16 DEBUG CheckPredecessorTask:80 - Check predecessor method has been invoked.
+2016-04-27 19:11:16 DEBUG StabilizeTask:98 - Stabilize method has been invoked periodically
+2016-04-27 19:11:16 INFO  CheckPredecessorTask:88 - Nothing to check, as predecessor is null
+2016-04-27 19:11:16 INFO  StabilizeTask:108 - Nothing to stabilize, as successor is null
+2016-04-27 19:11:19 DEBUG 41 82 20 BA :105 - fixFingers tries to get finger for key 41 82 20 BA 
+2016-04-27 19:11:19 INFO  41 82 20 BA :1000 - I appear to be the only node in the network, so I am my own successor; return reference on me: 41 82 20 BA 
+2016-04-27 19:11:19 INFO  41 82 20 BA :120 - Adding new reference 41 82 20 BA 
+2016-04-27 19:11:19 DEBUG 41 82 20 BA :328 - Reference on myself was not added
+2016-04-27 19:11:19 DEBUG 41 82 20 BA :127 - Invocation of fix fingers was successful
+2016-04-27 19:11:28 DEBUG CheckPredecessorTask:80 - Check predecessor method has been invoked.
+2016-04-27 19:11:28 DEBUG StabilizeTask:98 - Stabilize method has been invoked periodically
+2016-04-27 19:11:28 INFO  CheckPredecessorTask:88 - Nothing to check, as predecessor is null
+2016-04-27 19:11:28 INFO  StabilizeTask:108 - Nothing to stabilize, as successor is null
+2016-04-27 19:11:31 DEBUG 41 82 20 BA :105 - fixFingers tries to get finger for key 41 82 20 BA 
+2016-04-27 19:11:31 INFO  41 82 20 BA :1000 - I appear to be the only node in the network, so I am my own successor; return reference on me: 41 82 20 BA 
+2016-04-27 19:11:31 INFO  41 82 20 BA :120 - Adding new reference 41 82 20 BA 
+2016-04-27 19:11:31 DEBUG 41 82 20 BA :328 - Reference on myself was not added
+2016-04-27 19:11:31 DEBUG 41 82 20 BA :127 - Invocation of fix fingers was successful
+2016-04-27 19:11:40 DEBUG CheckPredecessorTask:80 - Check predecessor method has been invoked.
+2016-04-27 19:11:40 INFO  CheckPredecessorTask:88 - Nothing to check, as predecessor is null
+2016-04-27 19:11:40 DEBUG StabilizeTask:98 - Stabilize method has been invoked periodically
+2016-04-27 19:11:40 INFO  StabilizeTask:108 - Nothing to stabilize, as successor is null
+2016-04-27 19:11:43 DEBUG 41 82 20 BA :105 - fixFingers tries to get finger for key 41 82 20 BA 
+2016-04-27 19:11:43 INFO  41 82 20 BA :1000 - I appear to be the only node in the network, so I am my own successor; return reference on me: 41 82 20 BA 
+2016-04-27 19:11:43 INFO  41 82 20 BA :120 - Adding new reference 41 82 20 BA 
+2016-04-27 19:11:43 DEBUG 41 82 20 BA :328 - Reference on myself was not added
+2016-04-27 19:11:43 DEBUG 41 82 20 BA :127 - Invocation of fix fingers was successful
+2016-04-27 19:11:52 DEBUG CheckPredecessorTask:80 - Check predecessor method has been invoked.
+2016-04-27 19:11:52 INFO  CheckPredecessorTask:88 - Nothing to check, as predecessor is null
+2016-04-27 19:11:52 DEBUG StabilizeTask:98 - Stabilize method has been invoked periodically
+2016-04-27 19:11:52 INFO  StabilizeTask:108 - Nothing to stabilize, as successor is null
+2016-04-27 19:11:55 DEBUG 41 82 20 BA :105 - fixFingers tries to get finger for key 41 82 20 BA 
+2016-04-27 19:11:55 INFO  41 82 20 BA :1000 - I appear to be the only node in the network, so I am my own successor; return reference on me: 41 82 20 BA 
+2016-04-27 19:11:55 INFO  41 82 20 BA :120 - Adding new reference 41 82 20 BA 
+2016-04-27 19:11:55 DEBUG 41 82 20 BA :328 - Reference on myself was not added
+2016-04-27 19:11:55 DEBUG 41 82 20 BA :127 - Invocation of fix fingers was successful
+2016-04-27 19:12:04 DEBUG CheckPredecessorTask:80 - Check predecessor method has been invoked.
+2016-04-27 19:12:04 DEBUG StabilizeTask:98 - Stabilize method has been invoked periodically
+2016-04-27 19:12:04 INFO  CheckPredecessorTask:88 - Nothing to check, as predecessor is null
+2016-04-27 19:12:04 INFO  StabilizeTask:108 - Nothing to stabilize, as successor is null
+2016-04-27 19:12:07 DEBUG 41 82 20 BA :105 - fixFingers tries to get finger for key 41 82 20 BA 
+2016-04-27 19:12:07 INFO  41 82 20 BA :1000 - I appear to be the only node in the network, so I am my own successor; return reference on me: 41 82 20 BA 
+2016-04-27 19:12:07 INFO  41 82 20 BA :120 - Adding new reference 41 82 20 BA 
+2016-04-27 19:12:07 DEBUG 41 82 20 BA :328 - Reference on myself was not added
+2016-04-27 19:12:07 DEBUG 41 82 20 BA :127 - Invocation of fix fingers was successful
+2016-04-27 19:12:16 DEBUG CheckPredecessorTask:80 - Check predecessor method has been invoked.
+2016-04-27 19:12:16 DEBUG StabilizeTask:98 - Stabilize method has been invoked periodically
+2016-04-27 19:12:16 INFO  CheckPredecessorTask:88 - Nothing to check, as predecessor is null
+2016-04-27 19:12:16 INFO  StabilizeTask:108 - Nothing to stabilize, as successor is null
+2016-04-27 19:12:19 DEBUG 41 82 20 BA :105 - fixFingers tries to get finger for key 41 82 20 BA 
+2016-04-27 19:12:19 INFO  41 82 20 BA :1000 - I appear to be the only node in the network, so I am my own successor; return reference on me: 41 82 20 BA 
+2016-04-27 19:12:19 INFO  41 82 20 BA :120 - Adding new reference 41 82 20 BA 
+2016-04-27 19:12:19 DEBUG 41 82 20 BA :328 - Reference on myself was not added
+2016-04-27 19:12:19 DEBUG 41 82 20 BA :127 - Invocation of fix fingers was successful
+2016-04-27 19:12:28 DEBUG CheckPredecessorTask:80 - Check predecessor method has been invoked.
+2016-04-27 19:12:28 DEBUG StabilizeTask:98 - Stabilize method has been invoked periodically
+2016-04-27 19:12:28 INFO  CheckPredecessorTask:88 - Nothing to check, as predecessor is null
+2016-04-27 19:12:28 INFO  StabilizeTask:108 - Nothing to stabilize, as successor is null
+2016-04-27 19:12:31 DEBUG 41 82 20 BA :105 - fixFingers tries to get finger for key 42 02 20 BA 
+2016-04-27 19:12:31 INFO  41 82 20 BA :1000 - I appear to be the only node in the network, so I am my own successor; return reference on me: 41 82 20 BA 
+2016-04-27 19:12:31 INFO  41 82 20 BA :120 - Adding new reference 41 82 20 BA 
+2016-04-27 19:12:31 DEBUG 41 82 20 BA :328 - Reference on myself was not added
+2016-04-27 19:12:31 DEBUG 41 82 20 BA :127 - Invocation of fix fingers was successful
+2016-04-27 19:12:40 DEBUG CheckPredecessorTask:80 - Check predecessor method has been invoked.
+2016-04-27 19:12:40 DEBUG StabilizeTask:98 - Stabilize method has been invoked periodically
+2016-04-27 19:12:40 INFO  CheckPredecessorTask:88 - Nothing to check, as predecessor is null
+2016-04-27 19:12:40 INFO  StabilizeTask:108 - Nothing to stabilize, as successor is null
+2016-04-27 19:12:43 DEBUG 41 82 20 BA :105 - fixFingers tries to get finger for key 41 82 20 BA 
+2016-04-27 19:12:43 INFO  41 82 20 BA :1000 - I appear to be the only node in the network, so I am my own successor; return reference on me: 41 82 20 BA 
+2016-04-27 19:12:43 INFO  41 82 20 BA :120 - Adding new reference 41 82 20 BA 
+2016-04-27 19:12:43 DEBUG 41 82 20 BA :328 - Reference on myself was not added
+2016-04-27 19:12:43 DEBUG 41 82 20 BA :127 - Invocation of fix fingers was successful
+2016-04-27 19:12:52 DEBUG CheckPredecessorTask:80 - Check predecessor method has been invoked.
+2016-04-27 19:12:52 DEBUG StabilizeTask:98 - Stabilize method has been invoked periodically
+2016-04-27 19:12:52 INFO  CheckPredecessorTask:88 - Nothing to check, as predecessor is null
+2016-04-27 19:12:52 INFO  StabilizeTask:108 - Nothing to stabilize, as successor is null
+2016-04-27 19:12:55 DEBUG 41 82 20 BA :105 - fixFingers tries to get finger for key 41 82 20 BA 
+2016-04-27 19:12:55 INFO  41 82 20 BA :1000 - I appear to be the only node in the network, so I am my own successor; return reference on me: 41 82 20 BA 
+2016-04-27 19:12:55 INFO  41 82 20 BA :120 - Adding new reference 41 82 20 BA 
+2016-04-27 19:12:55 DEBUG 41 82 20 BA :328 - Reference on myself was not added
+2016-04-27 19:12:55 DEBUG 41 82 20 BA :127 - Invocation of fix fingers was successful
+2016-04-27 19:13:04 DEBUG StabilizeTask:98 - Stabilize method has been invoked periodically
+2016-04-27 19:13:04 DEBUG CheckPredecessorTask:80 - Check predecessor method has been invoked.
+2016-04-27 19:13:04 INFO  StabilizeTask:108 - Nothing to stabilize, as successor is null
+2016-04-27 19:13:04 INFO  CheckPredecessorTask:88 - Nothing to check, as predecessor is null
+2016-04-27 19:13:07 DEBUG 41 82 20 BA :105 - fixFingers tries to get finger for key 41 82 20 BA 
+2016-04-27 19:13:07 INFO  41 82 20 BA :1000 - I appear to be the only node in the network, so I am my own successor; return reference on me: 41 82 20 BA 
+2016-04-27 19:13:07 INFO  41 82 20 BA :120 - Adding new reference 41 82 20 BA 
+2016-04-27 19:13:07 DEBUG 41 82 20 BA :328 - Reference on myself was not added
+2016-04-27 19:13:07 DEBUG 41 82 20 BA :127 - Invocation of fix fingers was successful
+2016-04-27 19:13:16 DEBUG StabilizeTask:98 - Stabilize method has been invoked periodically
+2016-04-27 19:13:16 DEBUG CheckPredecessorTask:80 - Check predecessor method has been invoked.
+2016-04-27 19:13:16 INFO  CheckPredecessorTask:88 - Nothing to check, as predecessor is null
+2016-04-27 19:13:16 INFO  StabilizeTask:108 - Nothing to stabilize, as successor is null
+2016-04-27 19:13:19 DEBUG 41 82 20 BA :105 - fixFingers tries to get finger for key 41 82 20 BA 
+2016-04-27 19:13:19 INFO  41 82 20 BA :1000 - I appear to be the only node in the network, so I am my own successor; return reference on me: 41 82 20 BA 
+2016-04-27 19:13:19 INFO  41 82 20 BA :120 - Adding new reference 41 82 20 BA 
+2016-04-27 19:13:19 DEBUG 41 82 20 BA :328 - Reference on myself was not added
+2016-04-27 19:13:19 DEBUG 41 82 20 BA :127 - Invocation of fix fingers was successful
+2016-04-27 19:13:28 DEBUG CheckPredecessorTask:80 - Check predecessor method has been invoked.
+2016-04-27 19:13:28 DEBUG StabilizeTask:98 - Stabilize method has been invoked periodically
+2016-04-27 19:13:28 INFO  CheckPredecessorTask:88 - Nothing to check, as predecessor is null
+2016-04-27 19:13:28 INFO  StabilizeTask:108 - Nothing to stabilize, as successor is null
+2016-04-27 19:13:31 DEBUG 41 82 20 BA :105 - fixFingers tries to get finger for key 41 C2 20 BA 
+2016-04-27 19:13:31 INFO  41 82 20 BA :1000 - I appear to be the only node in the network, so I am my own successor; return reference on me: 41 82 20 BA 
+2016-04-27 19:13:31 INFO  41 82 20 BA :120 - Adding new reference 41 82 20 BA 
+2016-04-27 19:13:31 DEBUG 41 82 20 BA :328 - Reference on myself was not added
+2016-04-27 19:13:31 DEBUG 41 82 20 BA :127 - Invocation of fix fingers was successful
+2016-04-27 19:13:40 DEBUG CheckPredecessorTask:80 - Check predecessor method has been invoked.
+2016-04-27 19:13:40 DEBUG StabilizeTask:98 - Stabilize method has been invoked periodically
+2016-04-27 19:13:40 INFO  CheckPredecessorTask:88 - Nothing to check, as predecessor is null
+2016-04-27 19:13:40 INFO  StabilizeTask:108 - Nothing to stabilize, as successor is null
+2016-04-27 19:13:43 DEBUG 41 82 20 BA :105 - fixFingers tries to get finger for key 41 82 20 BA 
+2016-04-27 19:13:43 INFO  41 82 20 BA :1000 - I appear to be the only node in the network, so I am my own successor; return reference on me: 41 82 20 BA 
+2016-04-27 19:13:43 INFO  41 82 20 BA :120 - Adding new reference 41 82 20 BA 
+2016-04-27 19:13:43 DEBUG 41 82 20 BA :328 - Reference on myself was not added
+2016-04-27 19:13:43 DEBUG 41 82 20 BA :127 - Invocation of fix fingers was successful
+2016-04-27 19:13:52 DEBUG CheckPredecessorTask:80 - Check predecessor method has been invoked.
+2016-04-27 19:13:52 DEBUG StabilizeTask:98 - Stabilize method has been invoked periodically
+2016-04-27 19:13:52 INFO  CheckPredecessorTask:88 - Nothing to check, as predecessor is null
+2016-04-27 19:13:52 INFO  StabilizeTask:108 - Nothing to stabilize, as successor is null
+2016-04-27 19:13:55 DEBUG 41 82 20 BA :105 - fixFingers tries to get finger for key 41 82 20 BA 
+2016-04-27 19:13:55 INFO  41 82 20 BA :1000 - I appear to be the only node in the network, so I am my own successor; return reference on me: 41 82 20 BA 
+2016-04-27 19:13:55 INFO  41 82 20 BA :120 - Adding new reference 41 82 20 BA 
+2016-04-27 19:13:55 DEBUG 41 82 20 BA :328 - Reference on myself was not added
+2016-04-27 19:13:55 DEBUG 41 82 20 BA :127 - Invocation of fix fingers was successful
+2016-04-27 19:14:04 DEBUG CheckPredecessorTask:80 - Check predecessor method has been invoked.
+2016-04-27 19:14:04 DEBUG StabilizeTask:98 - Stabilize method has been invoked periodically
+2016-04-27 19:14:04 INFO  CheckPredecessorTask:88 - Nothing to check, as predecessor is null
+2016-04-27 19:14:04 INFO  StabilizeTask:108 - Nothing to stabilize, as successor is null
+2016-04-27 19:14:07 DEBUG 41 82 20 BA :105 - fixFingers tries to get finger for key 41 82 20 FA 
+2016-04-27 19:14:07 INFO  41 82 20 BA :1000 - I appear to be the only node in the network, so I am my own successor; return reference on me: 41 82 20 BA 
+2016-04-27 19:14:07 INFO  41 82 20 BA :120 - Adding new reference 41 82 20 BA 
+2016-04-27 19:14:07 DEBUG 41 82 20 BA :328 - Reference on myself was not added
+2016-04-27 19:14:07 DEBUG 41 82 20 BA :127 - Invocation of fix fingers was successful
+2016-04-27 19:14:16 DEBUG CheckPredecessorTask:80 - Check predecessor method has been invoked.
+2016-04-27 19:14:16 DEBUG StabilizeTask:98 - Stabilize method has been invoked periodically
+2016-04-27 19:14:16 INFO  CheckPredecessorTask:88 - Nothing to check, as predecessor is null
+2016-04-27 19:14:16 INFO  StabilizeTask:108 - Nothing to stabilize, as successor is null
+2016-04-27 19:14:19 DEBUG 41 82 20 BA :105 - fixFingers tries to get finger for key 51 82 20 BA 
+2016-04-27 19:14:19 INFO  41 82 20 BA :1000 - I appear to be the only node in the network, so I am my own successor; return reference on me: 41 82 20 BA 
+2016-04-27 19:14:19 INFO  41 82 20 BA :120 - Adding new reference 41 82 20 BA 
+2016-04-27 19:14:19 DEBUG 41 82 20 BA :328 - Reference on myself was not added
+2016-04-27 19:14:19 DEBUG 41 82 20 BA :127 - Invocation of fix fingers was successful
+2016-04-27 19:14:28 DEBUG CheckPredecessorTask:80 - Check predecessor method has been invoked.
+2016-04-27 19:14:28 INFO  CheckPredecessorTask:88 - Nothing to check, as predecessor is null
+2016-04-27 19:14:28 DEBUG StabilizeTask:98 - Stabilize method has been invoked periodically
+2016-04-27 19:14:28 INFO  StabilizeTask:108 - Nothing to stabilize, as successor is null
+2016-04-27 19:14:31 DEBUG 41 82 20 BA :105 - fixFingers tries to get finger for key 41 82 20 BA 
+2016-04-27 19:14:31 INFO  41 82 20 BA :1000 - I appear to be the only node in the network, so I am my own successor; return reference on me: 41 82 20 BA 
+2016-04-27 19:14:31 INFO  41 82 20 BA :120 - Adding new reference 41 82 20 BA 
+2016-04-27 19:14:31 DEBUG 41 82 20 BA :328 - Reference on myself was not added
+2016-04-27 19:14:31 DEBUG 41 82 20 BA :127 - Invocation of fix fingers was successful
+2016-04-27 19:14:40 DEBUG CheckPredecessorTask:80 - Check predecessor method has been invoked.
+2016-04-27 19:14:40 INFO  CheckPredecessorTask:88 - Nothing to check, as predecessor is null
+2016-04-27 19:14:40 DEBUG StabilizeTask:98 - Stabilize method has been invoked periodically
+2016-04-27 19:14:40 INFO  StabilizeTask:108 - Nothing to stabilize, as successor is null
+2016-04-27 19:14:43 DEBUG 41 82 20 BA :105 - fixFingers tries to get finger for key 41 82 20 BA 
+2016-04-27 19:14:43 INFO  41 82 20 BA :1000 - I appear to be the only node in the network, so I am my own successor; return reference on me: 41 82 20 BA 
+2016-04-27 19:14:43 INFO  41 82 20 BA :120 - Adding new reference 41 82 20 BA 
+2016-04-27 19:14:43 DEBUG 41 82 20 BA :328 - Reference on myself was not added
+2016-04-27 19:14:43 DEBUG 41 82 20 BA :127 - Invocation of fix fingers was successful
+2016-04-27 19:14:52 DEBUG CheckPredecessorTask:80 - Check predecessor method has been invoked.
+2016-04-27 19:14:52 DEBUG StabilizeTask:98 - Stabilize method has been invoked periodically
+2016-04-27 19:14:52 INFO  StabilizeTask:108 - Nothing to stabilize, as successor is null
+2016-04-27 19:14:52 INFO  CheckPredecessorTask:88 - Nothing to check, as predecessor is null
+2016-04-27 19:14:55 DEBUG 41 82 20 BA :105 - fixFingers tries to get finger for key 41 82 20 BA 
+2016-04-27 19:14:55 INFO  41 82 20 BA :1000 - I appear to be the only node in the network, so I am my own successor; return reference on me: 41 82 20 BA 
+2016-04-27 19:14:55 INFO  41 82 20 BA :120 - Adding new reference 41 82 20 BA 
+2016-04-27 19:14:55 DEBUG 41 82 20 BA :328 - Reference on myself was not added
+2016-04-27 19:14:55 DEBUG 41 82 20 BA :127 - Invocation of fix fingers was successful
+2016-04-27 19:15:04 DEBUG StabilizeTask:98 - Stabilize method has been invoked periodically
+2016-04-27 19:15:04 DEBUG CheckPredecessorTask:80 - Check predecessor method has been invoked.
+2016-04-27 19:15:04 INFO  CheckPredecessorTask:88 - Nothing to check, as predecessor is null
+2016-04-27 19:15:04 INFO  StabilizeTask:108 - Nothing to stabilize, as successor is null
+2016-04-27 19:15:07 DEBUG 41 82 20 BA :105 - fixFingers tries to get finger for key 41 82 20 BA 
+2016-04-27 19:15:07 INFO  41 82 20 BA :1000 - I appear to be the only node in the network, so I am my own successor; return reference on me: 41 82 20 BA 
+2016-04-27 19:15:07 INFO  41 82 20 BA :120 - Adding new reference 41 82 20 BA 
+2016-04-27 19:15:07 DEBUG 41 82 20 BA :328 - Reference on myself was not added
+2016-04-27 19:15:07 DEBUG 41 82 20 BA :127 - Invocation of fix fingers was successful
+2016-04-27 19:15:16 DEBUG StabilizeTask:98 - Stabilize method has been invoked periodically
+2016-04-27 19:15:16 INFO  StabilizeTask:108 - Nothing to stabilize, as successor is null
+2016-04-27 19:15:16 DEBUG CheckPredecessorTask:80 - Check predecessor method has been invoked.
+2016-04-27 19:15:16 INFO  CheckPredecessorTask:88 - Nothing to check, as predecessor is null
+2016-04-27 19:15:19 DEBUG 41 82 20 BA :105 - fixFingers tries to get finger for key 81 82 20 BA 
+2016-04-27 19:15:19 INFO  41 82 20 BA :1000 - I appear to be the only node in the network, so I am my own successor; return reference on me: 41 82 20 BA 
+2016-04-27 19:15:19 INFO  41 82 20 BA :120 - Adding new reference 41 82 20 BA 
+2016-04-27 19:15:19 DEBUG 41 82 20 BA :328 - Reference on myself was not added
+2016-04-27 19:15:19 DEBUG 41 82 20 BA :127 - Invocation of fix fingers was successful
+2016-04-27 19:15:28 DEBUG StabilizeTask:98 - Stabilize method has been invoked periodically
+2016-04-27 19:15:28 INFO  StabilizeTask:108 - Nothing to stabilize, as successor is null
+2016-04-27 19:15:28 DEBUG CheckPredecessorTask:80 - Check predecessor method has been invoked.
+2016-04-27 19:15:28 INFO  CheckPredecessorTask:88 - Nothing to check, as predecessor is null
+2016-04-27 19:15:31 DEBUG 41 82 20 BA :105 - fixFingers tries to get finger for key 41 82 22 BA 
+2016-04-27 19:15:31 INFO  41 82 20 BA :1000 - I appear to be the only node in the network, so I am my own successor; return reference on me: 41 82 20 BA 
+2016-04-27 19:15:31 INFO  41 82 20 BA :120 - Adding new reference 41 82 20 BA 
+2016-04-27 19:15:31 DEBUG 41 82 20 BA :328 - Reference on myself was not added
+2016-04-27 19:15:31 DEBUG 41 82 20 BA :127 - Invocation of fix fingers was successful
+2016-04-27 19:15:40 DEBUG StabilizeTask:98 - Stabilize method has been invoked periodically
+2016-04-27 19:15:40 DEBUG CheckPredecessorTask:80 - Check predecessor method has been invoked.
+2016-04-27 19:15:40 INFO  CheckPredecessorTask:88 - Nothing to check, as predecessor is null
+2016-04-27 19:15:40 INFO  StabilizeTask:108 - Nothing to stabilize, as successor is null
+2016-04-27 19:15:43 DEBUG 41 82 20 BA :105 - fixFingers tries to get finger for key 41 82 20 BA 
+2016-04-27 19:15:43 INFO  41 82 20 BA :1000 - I appear to be the only node in the network, so I am my own successor; return reference on me: 41 82 20 BA 
+2016-04-27 19:15:43 INFO  41 82 20 BA :120 - Adding new reference 41 82 20 BA 
+2016-04-27 19:15:43 DEBUG 41 82 20 BA :328 - Reference on myself was not added
+2016-04-27 19:15:43 DEBUG 41 82 20 BA :127 - Invocation of fix fingers was successful
+2016-04-27 19:15:52 DEBUG CheckPredecessorTask:80 - Check predecessor method has been invoked.
+2016-04-27 19:15:52 DEBUG StabilizeTask:98 - Stabilize method has been invoked periodically
+2016-04-27 19:15:52 INFO  StabilizeTask:108 - Nothing to stabilize, as successor is null
+2016-04-27 19:15:52 INFO  CheckPredecessorTask:88 - Nothing to check, as predecessor is null
+2016-04-27 19:15:55 DEBUG 41 82 20 BA :105 - fixFingers tries to get finger for key 41 82 20 BA 
+2016-04-27 19:15:55 INFO  41 82 20 BA :1000 - I appear to be the only node in the network, so I am my own successor; return reference on me: 41 82 20 BA 
+2016-04-27 19:15:55 INFO  41 82 20 BA :120 - Adding new reference 41 82 20 BA 
+2016-04-27 19:15:55 DEBUG 41 82 20 BA :328 - Reference on myself was not added
+2016-04-27 19:15:55 DEBUG 41 82 20 BA :127 - Invocation of fix fingers was successful
+2016-04-27 19:16:04 DEBUG StabilizeTask:98 - Stabilize method has been invoked periodically
+2016-04-27 19:16:04 INFO  StabilizeTask:108 - Nothing to stabilize, as successor is null
+2016-04-27 19:16:04 DEBUG CheckPredecessorTask:80 - Check predecessor method has been invoked.
+2016-04-27 19:16:04 INFO  CheckPredecessorTask:88 - Nothing to check, as predecessor is null
+2016-04-27 19:16:07 DEBUG 41 82 20 BA :105 - fixFingers tries to get finger for key 41 82 20 BA 
+2016-04-27 19:16:07 INFO  41 82 20 BA :1000 - I appear to be the only node in the network, so I am my own successor; return reference on me: 41 82 20 BA 
+2016-04-27 19:16:07 INFO  41 82 20 BA :120 - Adding new reference 41 82 20 BA 
+2016-04-27 19:16:07 DEBUG 41 82 20 BA :328 - Reference on myself was not added
+2016-04-27 19:16:07 DEBUG 41 82 20 BA :127 - Invocation of fix fingers was successful
+2016-04-27 19:16:16 DEBUG StabilizeTask:98 - Stabilize method has been invoked periodically
+2016-04-27 19:16:16 INFO  StabilizeTask:108 - Nothing to stabilize, as successor is null
+2016-04-27 19:16:16 DEBUG CheckPredecessorTask:80 - Check predecessor method has been invoked.
+2016-04-27 19:16:16 INFO  CheckPredecessorTask:88 - Nothing to check, as predecessor is null
+2016-04-27 19:16:19 DEBUG 41 82 20 BA :105 - fixFingers tries to get finger for key 41 82 20 BA 
+2016-04-27 19:16:19 INFO  41 82 20 BA :1000 - I appear to be the only node in the network, so I am my own successor; return reference on me: 41 82 20 BA 
+2016-04-27 19:16:19 INFO  41 82 20 BA :120 - Adding new reference 41 82 20 BA 
+2016-04-27 19:16:19 DEBUG 41 82 20 BA :328 - Reference on myself was not added
+2016-04-27 19:16:19 DEBUG 41 82 20 BA :127 - Invocation of fix fingers was successful
+2016-04-27 19:16:28 DEBUG StabilizeTask:98 - Stabilize method has been invoked periodically
+2016-04-27 19:16:28 DEBUG CheckPredecessorTask:80 - Check predecessor method has been invoked.
+2016-04-27 19:16:28 INFO  StabilizeTask:108 - Nothing to stabilize, as successor is null
+2016-04-27 19:16:28 INFO  CheckPredecessorTask:88 - Nothing to check, as predecessor is null
+2016-04-27 19:16:31 DEBUG 41 82 20 BA :105 - fixFingers tries to get finger for key 41 82 20 BA 
+2016-04-27 19:16:31 INFO  41 82 20 BA :1000 - I appear to be the only node in the network, so I am my own successor; return reference on me: 41 82 20 BA 
+2016-04-27 19:16:31 INFO  41 82 20 BA :120 - Adding new reference 41 82 20 BA 
+2016-04-27 19:16:31 DEBUG 41 82 20 BA :328 - Reference on myself was not added
+2016-04-27 19:16:31 DEBUG 41 82 20 BA :127 - Invocation of fix fingers was successful
+2016-04-27 19:16:40 DEBUG StabilizeTask:98 - Stabilize method has been invoked periodically
+2016-04-27 19:16:40 DEBUG CheckPredecessorTask:80 - Check predecessor method has been invoked.
+2016-04-27 19:16:40 INFO  CheckPredecessorTask:88 - Nothing to check, as predecessor is null
+2016-04-27 19:16:40 INFO  StabilizeTask:108 - Nothing to stabilize, as successor is null
+2016-04-27 19:16:43 DEBUG 41 82 20 BA :105 - fixFingers tries to get finger for key 41 82 20 BA 
+2016-04-27 19:16:43 INFO  41 82 20 BA :1000 - I appear to be the only node in the network, so I am my own successor; return reference on me: 41 82 20 BA 
+2016-04-27 19:16:43 INFO  41 82 20 BA :120 - Adding new reference 41 82 20 BA 
+2016-04-27 19:16:43 DEBUG 41 82 20 BA :328 - Reference on myself was not added
+2016-04-27 19:16:43 DEBUG 41 82 20 BA :127 - Invocation of fix fingers was successful
+2016-04-27 19:16:52 DEBUG CheckPredecessorTask:80 - Check predecessor method has been invoked.
+2016-04-27 19:16:52 DEBUG StabilizeTask:98 - Stabilize method has been invoked periodically
+2016-04-27 19:16:52 INFO  CheckPredecessorTask:88 - Nothing to check, as predecessor is null
+2016-04-27 19:16:52 INFO  StabilizeTask:108 - Nothing to stabilize, as successor is null
+2016-04-27 19:16:55 DEBUG 41 82 20 BA :105 - fixFingers tries to get finger for key 41 82 20 BA 
+2016-04-27 19:16:55 INFO  41 82 20 BA :1000 - I appear to be the only node in the network, so I am my own successor; return reference on me: 41 82 20 BA 
+2016-04-27 19:16:55 INFO  41 82 20 BA :120 - Adding new reference 41 82 20 BA 
+2016-04-27 19:16:55 DEBUG 41 82 20 BA :328 - Reference on myself was not added
+2016-04-27 19:16:55 DEBUG 41 82 20 BA :127 - Invocation of fix fingers was successful
+2016-04-27 19:17:04 DEBUG CheckPredecessorTask:80 - Check predecessor method has been invoked.
+2016-04-27 19:17:04 DEBUG StabilizeTask:98 - Stabilize method has been invoked periodically
+2016-04-27 19:17:04 INFO  CheckPredecessorTask:88 - Nothing to check, as predecessor is null
+2016-04-27 19:17:04 INFO  StabilizeTask:108 - Nothing to stabilize, as successor is null
+2016-04-27 19:17:07 DEBUG 41 82 20 BA :105 - fixFingers tries to get finger for key 41 82 20 BA 
+2016-04-27 19:17:07 INFO  41 82 20 BA :1000 - I appear to be the only node in the network, so I am my own successor; return reference on me: 41 82 20 BA 
+2016-04-27 19:17:07 INFO  41 82 20 BA :120 - Adding new reference 41 82 20 BA 
+2016-04-27 19:17:07 DEBUG 41 82 20 BA :328 - Reference on myself was not added
+2016-04-27 19:17:07 DEBUG 41 82 20 BA :127 - Invocation of fix fingers was successful
+2016-04-27 19:17:16 DEBUG CheckPredecessorTask:80 - Check predecessor method has been invoked.
+2016-04-27 19:17:16 DEBUG StabilizeTask:98 - Stabilize method has been invoked periodically
+2016-04-27 19:17:16 INFO  CheckPredecessorTask:88 - Nothing to check, as predecessor is null
+2016-04-27 19:17:16 INFO  StabilizeTask:108 - Nothing to stabilize, as successor is null
+2016-04-27 19:17:19 DEBUG 41 82 20 BA :105 - fixFingers tries to get finger for key 41 82 20 BA 
+2016-04-27 19:17:19 INFO  41 82 20 BA :1000 - I appear to be the only node in the network, so I am my own successor; return reference on me: 41 82 20 BA 
+2016-04-27 19:17:19 INFO  41 82 20 BA :120 - Adding new reference 41 82 20 BA 
+2016-04-27 19:17:19 DEBUG 41 82 20 BA :328 - Reference on myself was not added
+2016-04-27 19:17:19 DEBUG 41 82 20 BA :127 - Invocation of fix fingers was successful
+2016-04-27 19:17:28 DEBUG CheckPredecessorTask:80 - Check predecessor method has been invoked.
+2016-04-27 19:17:28 DEBUG StabilizeTask:98 - Stabilize method has been invoked periodically
+2016-04-27 19:17:28 INFO  CheckPredecessorTask:88 - Nothing to check, as predecessor is null
+2016-04-27 19:17:28 INFO  StabilizeTask:108 - Nothing to stabilize, as successor is null
+2016-04-27 19:17:31 DEBUG 41 82 20 BA :105 - fixFingers tries to get finger for key 41 82 20 BA 
+2016-04-27 19:17:31 INFO  41 82 20 BA :1000 - I appear to be the only node in the network, so I am my own successor; return reference on me: 41 82 20 BA 
+2016-04-27 19:17:31 INFO  41 82 20 BA :120 - Adding new reference 41 82 20 BA 
+2016-04-27 19:17:31 DEBUG 41 82 20 BA :328 - Reference on myself was not added
+2016-04-27 19:17:31 DEBUG 41 82 20 BA :127 - Invocation of fix fingers was successful
+2016-04-27 19:17:40 DEBUG CheckPredecessorTask:80 - Check predecessor method has been invoked.
+2016-04-27 19:17:40 DEBUG StabilizeTask:98 - Stabilize method has been invoked periodically
+2016-04-27 19:17:40 INFO  StabilizeTask:108 - Nothing to stabilize, as successor is null
+2016-04-27 19:17:40 INFO  CheckPredecessorTask:88 - Nothing to check, as predecessor is null
+2016-04-27 19:17:43 DEBUG 41 82 20 BA :105 - fixFingers tries to get finger for key 41 8A 20 BA 
+2016-04-27 19:17:43 INFO  41 82 20 BA :1000 - I appear to be the only node in the network, so I am my own successor; return reference on me: 41 82 20 BA 
+2016-04-27 19:17:43 INFO  41 82 20 BA :120 - Adding new reference 41 82 20 BA 
+2016-04-27 19:17:43 DEBUG 41 82 20 BA :328 - Reference on myself was not added
+2016-04-27 19:17:43 DEBUG 41 82 20 BA :127 - Invocation of fix fingers was successful
+2016-04-27 19:17:52 DEBUG StabilizeTask:98 - Stabilize method has been invoked periodically
+2016-04-27 19:17:52 DEBUG CheckPredecessorTask:80 - Check predecessor method has been invoked.
+2016-04-27 19:17:52 INFO  CheckPredecessorTask:88 - Nothing to check, as predecessor is null
+2016-04-27 19:17:52 INFO  StabilizeTask:108 - Nothing to stabilize, as successor is null
+2016-04-27 19:17:55 DEBUG 41 82 20 BA :105 - fixFingers tries to get finger for key 41 82 20 BA 
+2016-04-27 19:17:55 INFO  41 82 20 BA :1000 - I appear to be the only node in the network, so I am my own successor; return reference on me: 41 82 20 BA 
+2016-04-27 19:17:55 INFO  41 82 20 BA :120 - Adding new reference 41 82 20 BA 
+2016-04-27 19:17:55 DEBUG 41 82 20 BA :328 - Reference on myself was not added
+2016-04-27 19:17:55 DEBUG 41 82 20 BA :127 - Invocation of fix fingers was successful
+2016-04-27 19:18:04 DEBUG CheckPredecessorTask:80 - Check predecessor method has been invoked.
+2016-04-27 19:18:04 DEBUG StabilizeTask:98 - Stabilize method has been invoked periodically
+2016-04-27 19:18:04 INFO  CheckPredecessorTask:88 - Nothing to check, as predecessor is null
+2016-04-27 19:18:04 INFO  StabilizeTask:108 - Nothing to stabilize, as successor is null
+2016-04-27 19:18:07 DEBUG 41 82 20 BA :105 - fixFingers tries to get finger for key 43 82 20 BA 
+2016-04-27 19:18:07 INFO  41 82 20 BA :1000 - I appear to be the only node in the network, so I am my own successor; return reference on me: 41 82 20 BA 
+2016-04-27 19:18:07 INFO  41 82 20 BA :120 - Adding new reference 41 82 20 BA 
+2016-04-27 19:18:07 DEBUG 41 82 20 BA :328 - Reference on myself was not added
+2016-04-27 19:18:07 DEBUG 41 82 20 BA :127 - Invocation of fix fingers was successful
